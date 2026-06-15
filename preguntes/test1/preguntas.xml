@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+    <!-- RECULL TESTS CURSOS ANTERIORS 2007 -->
+
+    <pregunta>
+        <texto>Un sistema operatiu</texto>
+        <opciones>
+            <opcion valor="a">Ha de fer funcionar correctament les aplicacions.</opcion>
+            <opcion valor="b">Ha de corregir els errors de programació de les aplicacions.</opcion>
+            <opcion valor="c">Ha d'evitar intrusions en el sistema per part de les aplicacions.</opcion>
+            <opcion valor="d">Ha de permetre executar lliurement qualsevol aplicació.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quantes aplicacions es poden executar en un sistema operatiu (SO) monoprogramat?</texto>
+        <opciones>
+            <opcion valor="a">Tantes com l'usuari vulgui alhora.</opcion>
+            <opcion valor="b">Només una.</opcion>
+            <opcion valor="c">Tantes com l'usuari necessiti, però no alhora.</opcion>
+            <opcion valor="d">Cap, ja que no existeixen SO monoprogramats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina característica podrem tenir en una execució d'una aplicació tipus batch (per lots)?</texto>
+        <opciones>
+            <opcion valor="a">Establir anticipadament les dades d'entrada de l'aplicació.</opcion>
+            <opcion valor="b">Respondre a preguntes interactivament.</opcion>
+            <opcion valor="c">Que sigui una aplicació per menús.</opcion>
+            <opcion valor="d">Canviar l'usuari interactiu que executa l'aplicació.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un Sistema Operatiu Monoprogramat:</texto>
+        <opciones>
+            <opcion valor="a">No fa falta la protecció de memòria.</opcion>
+            <opcion valor="b">Sols es pot carregar una aplicació cada vegada que s'engega la màquina.</opcion>
+            <opcion valor="c">Només pot treballar un usuari de manera interactiva.</opcion>
+            <opcion valor="d">Tota la memòria principal està disponible per a l'aplicació.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En l'estat de RUN un procés està:</texto>
+        <opciones>
+            <opcion valor="a">Rondinejant per les cues batch.</opcion>
+            <opcion valor="b">Executant una instrucció.</opcion>
+            <opcion valor="c">Bloquejant en la cua de RUN.</opcion>
+            <opcion valor="d">Esperant que alliberin la cua de READY.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En l'estat de BLOCKED:</texto>
+        <opciones>
+            <opcion valor="a">Només poden estar processos que esperin algun event.</opcion>
+            <opcion valor="b">Eventualment hi ha processos que estan executant alguna instrucció a la CPU.</opcion>
+            <opcion valor="c">Volen passar a l'estat de RUN de manera immediata.</opcion>
+            <opcion valor="d">Només poden arribar-hi si així ho ha determinat el swapper.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Un procés:</texto>
+        <opciones>
+            <opcion valor="a">Permet carregar aplicacions de memòria no volàtil a memòria volàtil.</opcion>
+            <opcion valor="b">Es pot emmagatzemar en disc per a la seva execució posterior.</opcion>
+            <opcion valor="c">És una paraula sinònima de programa.</opcion>
+            <opcion valor="d">No pot existir un cop carregat a memòria.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un sistema Monoprogramat la cua de Ready:</texto>
+        <opciones>
+            <opcion valor="a">No té sentit.</opcion>
+            <opcion valor="b">Sempre contindrá el procés null.</opcion>
+            <opcion valor="c">Té mida il·limitada.</opcion>
+            <opcion valor="d">Sempre contindrá al Sistema Operatiu.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un sistema Multiprogramat no es fa la transició:</texto>
+        <opciones>
+            <opcion valor="a">de Ready a Run.</opcion>
+            <opcion valor="b">de Run a Ready.</opcion>
+            <opcion valor="c">de Run a Blocked.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>La compilació d'aplicacions:</texto>
+        <opciones>
+            <opcion valor="a">Tradueix un programa escrit en un llenguatge de programació a un altre llenguatge que permet ser executat.</opcion>
+            <opcion valor="b">És necessària per a poder executar qualsevol aplicació.</opcion>
+            <opcion valor="c">Facilita al Sistema Operatiu l'execució de les aplicacions.</opcion>
+            <opcion valor="d">No funciona correctament per a màquines multiprocessador.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat un programa que funciona en una màquina UNIX.</texto>
+        <opciones>
+            <opcion valor="a">Podem executar-lo en qualsevol altra màquina UNIX.</opcion>
+            <opcion valor="b">Hem de recompilar-lo per a poder executar-lo en una altra màquina.</opcion>
+            <opcion valor="c">Només cal recompilar-lo si es un sistema operatiu compatible i es tracta d'un processador diferent.</opcion>
+            <opcion valor="d">Funcionarà al recompilar-lo encara que sigui un altre Sistema Operatiu.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Si un sistema operatiu és SMP significa:</texto>
+        <opciones>
+            <opcion valor="a">Sistema de Memorizacion de Programas.</opcion>
+            <opcion valor="b">System Modulation Peripherial.</opcion>
+            <opcion valor="c">Simple Machine Processor.</opcion>
+            <opcion valor="d">Symetric MultiProcessing.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Per a què usa un Sistema Operatiu la suspensió de processos?</texto>
+        <opciones>
+            <opcion valor="a">Per a que no aprovi l'assignatura.</opcion>
+            <opcion valor="b">Per a alliberar espai de disc.</opcion>
+            <opcion valor="c">Per a alliberar espai de memòria principal.</opcion>
+            <opcion valor="d">Per a ser més justos en el repartiment de la CPU.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin canvi d'estat NO és possible?</texto>
+        <opciones>
+            <opcion valor="a">de Run a Ready.</opcion>
+            <opcion valor="b">de Blocked a Blocked-Suspended.</opcion>
+            <opcion valor="c">de Ready-Suspended a Blocked.</opcion>
+            <opcion valor="d">de Ready a Ready-Suspended.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina diferencia hi ha entre threads i processos?</texto>
+        <opciones>
+            <opcion valor="a">Cap, són iguals.</opcion>
+            <opcion valor="b">Un thread pertany a un procés (o tasca).</opcion>
+            <opcion valor="c">Un procés (o tasca) pertany a un thread.</opcion>
+            <opcion valor="d">No tenen res a veure.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- RECULL TESTS CURSOS ANTERIORS 2006 -->
+
+    <pregunta>
+        <texto>Els sistemes operatius monoprogramats:</texto>
+        <opciones>
+            <opcion valor="a">Tenen un únic programa guardat en disc.</opcion>
+            <opcion valor="b">Tenen un únic procés en estat de Ready.</opcion>
+            <opcion valor="c">Tenen més d'un procés en estat de Blocked.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un sistema multiprocessador, com s'ha de programar el S.O.</texto>
+        <opciones>
+            <opcion valor="a">SO. Monoprogramat.</opcion>
+            <opcion valor="b">SO. Multiprogramat.</opcion>
+            <opcion valor="c">SO. Multiprogramat Temps Compartit.</opcion>
+            <opcion valor="d">SO. SMP.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Un sistema operatiu NO:</texto>
+        <opciones>
+            <opcion valor="a">Ha d'oferir serveis a les aplicacions de manera correcta i eficient.</opcion>
+            <opcion valor="b">Ha de corregir els errors de programació de les aplicacions.</opcion>
+            <opcion valor="c">Ha d'evitar intrusions en el sistema per part de les aplicacions.</opcion>
+            <opcion valor="d">Ha de permetre executar les aplicacions sense interferències entre elles.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Els threads:</texto>
+        <opciones>
+            <opcion valor="a">Són equivalents als processos.</opcion>
+            <opcion valor="b">Són equivalents a les tasques.</opcion>
+            <opcion valor="c">Pertanyen a una tasca.</opcion>
+            <opcion valor="d">Pertanyen a un programa.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Els dispositius d'E/S:</texto>
+        <opciones>
+            <opcion valor="a">Són accessibles per qualsevol programa.</opcion>
+            <opcion valor="b">No es poden compartir mai.</opcion>
+            <opcion valor="c">Amb sincronització els podrem utilitzar.</opcion>
+            <opcion valor="d">Sempre els podrem utilitzar amb accés directe al byte que volguem.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>La gestió de memòria d'un sistema operatiu s'encarrega de:</texto>
+        <opciones>
+            <opcion valor="a">Evitar intrusions des d'internet.</opcion>
+            <opcion valor="b">Ubicar les dades d'un procés a memòria.</opcion>
+            <opcion valor="c">Suspendre a un procés a disc.</opcion>
+            <opcion valor="d">Administrar l'espai de disc de les aplicacions.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>La seguretat de les dades:</texto>
+        <opciones>
+            <opcion valor="a">La proporciona els cosos de policia.</opcion>
+            <opcion valor="b">No és feina del SO.</opcion>
+            <opcion valor="c">És necessaria en sistemes multiprogramats.</opcion>
+            <opcion valor="d">No és necessaria en sistemes monoprogramats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin mecanisme hardware ens permet implementar SO de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">Interrupcions de salts.</opcion>
+            <opcion valor="b">Interrupcions d'un timer.</opcion>
+            <opcion valor="c">Interrupcions de teclat.</opcion>
+            <opcion valor="d">Instruccions de retorn de subrutina.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Per a què van evolucionar els sistemes operatius un cop teniem els Monoprogramats?</texto>
+        <opciones>
+            <opcion valor="a">Per a tenir més rendiment en l'execució individual d'una única aplicació.</opcion>
+            <opcion valor="b">Per a retrassar el temps de finalització de les aplicacions.</opcion>
+            <opcion valor="c">Per a poder executar múltiples aplicacions de manera més eficient.</opcion>
+            <opcion valor="d">Per a tenir SO més complicats encara que fossin més difícils d'administrar.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin sistema operatiu comparteix el mateix disseny del kernel que el Windows XP?</texto>
+        <opciones>
+            <opcion valor="a">Windows NT.</opcion>
+            <opcion valor="b">MacOS 9.2</opcion>
+            <opcion valor="c">Windows 98.</opcion>
+            <opcion valor="d">Windows 3.1.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Cuanta memòria ocupa un procés en estat zombie de UNIX?</texto>
+        <opciones>
+            <opcion valor="a">La mateixa que durant l'execució del procés.</opcion>
+            <opcion valor="b">La mateixa que al començament de l'execució.</opcion>
+            <opcion valor="c">La mateixa que al executar la darrera crida al sistema.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un sistema on s'han carregat a memòria 5 processos. Quin és el nombre de processos que NO poden estar mai simultániament a la cua de Ready?</texto>
+        <opciones>
+            <opcion valor="a">5</opcion>
+            <opcion valor="b">0</opcion>
+            <opcion valor="c">4</opcion>
+            <opcion valor="d">1</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En un sistema on s'han carregat a memòria 5 processos. Quants poden estar bloquejats?</texto>
+        <opciones>
+            <opcion valor="a">0</opcion>
+            <opcion valor="b">5</opcion>
+            <opcion valor="c">3</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Qué és un LWP?</texto>
+        <opciones>
+            <opcion valor="a">És un thread de Solaris.</opcion>
+            <opcion valor="b">És un procés de UNIX.</opcion>
+            <opcion valor="c">És el lligam entre els threads de sistema i els threads d'usuaris.</opcion>
+            <opcion valor="d">És el lligam entre tasques i threads.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina necessitat hi ha de suspendre a un procés?</texto>
+        <opciones>
+            <opcion valor="a">Cap, però si no aprova el test...</opcion>
+            <opcion valor="b">Cap, l'únic que s'aconsegueix és retardar la finalització del mateix.</opcion>
+            <opcion valor="c">Per a alliberar memòria física.</opcion>
+            <opcion valor="d">Per a alliberar la CPU.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- RECULL TESTS CURSOS ANTERIORS 2005 -->
+
+    <pregunta>
+        <texto>Cuantes vegades hi ha en un Sistema Operatiu Multiprogramat la informació que fa referència a l'estat del processador?</texto>
+        <opciones>
+            <opcion valor="a">Cap.</opcion>
+            <opcion valor="b">1.</opcion>
+            <opcion valor="c">Tantes com programes en execució.</opcion>
+            <opcion valor="d">Tantes com processos en execució.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina diferència hi ha entre threads i processos?</texto>
+        <opciones>
+            <opcion valor="a">Cap, són iguals.</opcion>
+            <opcion valor="b">Un thread pertany a un procés (o tasca).</opcion>
+            <opcion valor="c">Un procés (o tasca) pertany a un thread.</opcion>
+            <opcion valor="d">No tenen res a veure.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2022 -->
+    <pregunta>
+        <texto>És funció dels SO:</texto>
+        <opciones>
+            <opcion valor="a">Controlar l'execució de les aplicacions.</opcion>
+            <opcion valor="b">Gestionar els recursos del sistema.</opcion>
+            <opcion valor="c">Oferir i facilitar l'accés als recursos per part de les aplicacions.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quins perfils d'usuaris hi ha en un Sistema de computació?</texto>
+        <opciones>
+            <opcion valor="a">Interactiu, Programador i Dissenyador.</opcion>
+            <opcion valor="b">Interactiu i Programador.</opcion>
+            <opcion valor="c">Modern, antic i renovat.</opcion>
+            <opcion valor="d">Lineal, seqüencial i recursiu.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En 'Bash' com passem una variable local a variable global</texto>
+        <opciones>
+            <opcion valor="a">Hi ha prou en escriure-les en majúscules.</opcion>
+            <opcion valor="b">Cal tornar a definir-la al fitxer '.bashrc'.</opcion>
+            <opcion valor="c">Amb la comanda 'global'.</opcion>
+            <opcion valor="d">Amb la comanda 'export'.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quines feines fa el kernel per a les aplicacions d'usuari?</texto>
+        <opciones>
+            <opcion valor="a">Accedir a dispositius d'E/S mitjançant el driver.</opcion>
+            <opcion valor="b">Accés total a qualsevol fitxer.</opcion>
+            <opcion valor="c">Accedir a recursos que no pertanyen a l'usuari.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Per que és important que els SO evolucionin:</texto>
+        <opciones>
+            <opcion valor="a">Per permetre que els programes facin més càlculs.</opcion>
+            <opcion valor="b">Per permetre als usuaris treballar més hores.</opcion>
+            <opcion valor="c">Per permetre accés a nous dispositius d'E/S.</opcion>
+            <opcion valor="d">Per garantir que un programa no tingui errors.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Que diferencia un SO multiprogramat d'un de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">La capacitat de carregar programes a memòria.</opcion>
+            <opcion valor="b">La capacitat d'escollir el moment de fer fora de CPU a un procés.</opcion>
+            <opcion valor="c">La capacitat d'executar-se en un sistema multiprocessador.</opcion>
+            <opcion valor="d">res, és el mateix.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin sistema dóna millor productivitat?</texto>
+        <opciones>
+            <opcion valor="a">Monoprogramat.</opcion>
+            <opcion valor="b">Multiprogramat.</opcion>
+            <opcion valor="c">Temps compartit.</opcion>
+            <opcion valor="d">Tots per igual.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>El processador per lots (batch) original</texto>
+        <opciones>
+            <opcion valor="a">Permet crear una cua de programes que s'executaran un darrera de l'altre.</opcion>
+            <opcion valor="b">No es fa servir en els Sistemes d'avui en dia.</opcion>
+            <opcion valor="c">Permet accedir als usuaris de manera interactiva.</opcion>
+            <opcion valor="d">És un tipus de reproductor de música.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>La multiprogramació està pensada per?</texto>
+        <opciones>
+            <opcion valor="a">Incrementar el nombre d'usuaris connectats al sistema.</opcion>
+            <opcion valor="b">Incrementar l'accés a les diferents CPU del sistema.</opcion>
+            <opcion valor="c">Incrementar la utilització de la CPU</opcion>
+            <opcion valor="d">Incrementar el temps de resposta.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina implementació és més eficient per a una cua de processos Blocked?</texto>
+        <opciones>
+            <opcion valor="a">Una cua LIFO.</opcion>
+            <opcion valor="b">Una cua FIFO.</opcion>
+            <opcion valor="c">Una cua de prioritats.</opcion>
+            <opcion valor="d">Múltiples cues.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina tasca té assignada el planificador de mig termini?</texto>
+        <opciones>
+            <opcion valor="a">Decidir quan s'ha de començar a executar un procés.</opcion>
+            <opcion valor="b">Decidir quan s'ha de treure un tros de la memòria assignada a un procés.</opcion>
+            <opcion valor="c">Decidir l'ordre d'acabament dels processos.</opcion>
+            <opcion valor="d">Decidir retirar completament de memòria principal a un procés.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quins són els tres estats principals d'un procés</texto>
+        <opciones>
+            <opcion valor="a">Ready, Run i Blocked</opcion>
+            <opcion valor="b">New, Run i Terminated.</opcion>
+            <opcion valor="c">New, Run i Blocked.</opcion>
+            <opcion valor="d">Run, Blocked i Terminated</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina evolució és possible per a un procés en un Sistema Operatiu de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">Run --&gt; Ready --&gt; Blocked --&gt; Run.</opcion>
+            <opcion valor="b">Run --&gt; Blocked --&gt; Ready --&gt; New.</opcion>
+            <opcion valor="c">New --&gt; Run --&gt; Blocked --&gt; Run.</opcion>
+            <opcion valor="d">New --&gt; Ready --&gt; Run --&gt; Ready.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Qué sortirà per pantalla si executem en un intèrpret de python les seguents comandes: x=3; y=5; z=x+y; print (z)</texto>
+        <opciones>
+            <opcion valor="a">x+y</opcion>
+            <opcion valor="b">35</opcion>
+            <opcion valor="c">3+5</opcion>
+            <opcion valor="d">8</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin tipus de SO és Solaris?</texto>
+        <opciones>
+            <opcion valor="a">Monoprogramat, monousuari.</opcion>
+            <opcion valor="b">Multiprogramat temps compartit i multithread.</opcion>
+            <opcion valor="c">Multiusuari, monoprogramat per cada usuari.</opcion>
+            <opcion valor="d">Multiprogramat, monothread per cada procés.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>El codi que s'executa en una interrupció:</texto>
+        <opciones>
+            <opcion valor="a">Pertany al codi del programa.</opcion>
+            <opcion valor="b">Pertany al codi del kernel.</opcion>
+            <opcion valor="c">S'executa en mode usuari del sistema operatiu.</opcion>
+            <opcion valor="d">S'executa en mode kernel del procés d'usuari.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>L'objectiu principal que vol assolir una aplicació que esta programada amb threads?</texto>
+        <opciones>
+            <opcion valor="a">És millorar el temps de retorn de l'aplicació.</opcion>
+            <opcion valor="b">És millorar la productivitat del sistema.</opcion>
+            <opcion valor="c">És millorar la utilització de la CPU del sistema.</opcion>
+            <opcion valor="d">És millorar el temps de resposta de l'aplicació.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quin tipus de sistema operatiu és?</texto>
+        <imagen>imatges/execucio_tres_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">Monoprogramat.</opcion>
+            <opcion valor="b">Multiprogramat.</opcion>
+            <opcion valor="c">Multiprogramat temps compartit.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina prioritat tenen els processos?</texto>
+        <imagen>imatges/execucio_tres_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 &gt; P2 &gt; P3.</opcion>
+            <opcion valor="b">P2 &gt; P3 &gt; P1.</opcion>
+            <opcion valor="c">P1 &gt; P3 &gt; P2.</opcion>
+            <opcion valor="d">No tenen prioritats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps d'espera?</texto>
+        <imagen>imatges/execucio_tres_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">16</opcion>
+            <opcion valor="b">24</opcion>
+            <opcion valor="c">21,33</opcion>
+            <opcion valor="d">32</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps de retorn?</texto>
+        <imagen>imatges/execucio_tres_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">14,66</opcion>
+            <opcion valor="b">30,66</opcion>
+            <opcion valor="c">32,66</opcion>
+            <opcion valor="d">36</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, quin són els períodes dels processos P1 i P2, respectivament:</texto>
+        <imagen>imatges/periode_dos_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">50,50</opcion>
+            <opcion valor="b">50,100</opcion>
+            <opcion valor="c">100,100</opcion>
+            <opcion valor="d">100,150</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, en un planificador Rate-Monotronic, quina relació de prioritats tenen P1 i P2?</texto>
+        <imagen>imatges/periode_dos_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">La mateixa.</opcion>
+            <opcion valor="b">P1 &lt; P2.</opcion>
+            <opcion valor="c">P1 &gt; P2.</opcion>
+            <opcion valor="d">No té sentit en un planificador Rate-Monotronic.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la següent execució de dos processos de temps real, en un planificador Earliest-Deadline-First (EDF), quina relació de prioritats tindrien P1 i P2?</texto>
+        <imagen>imatges/periode_dos_processos.png</imagen>
+        <opciones>
+            <opcion valor="a">És dinàmica i es modifica a mesura que s'apropen al seu deadline.</opcion>
+            <opcion valor="b">La mateixa.</opcion>
+            <opcion valor="c">P1 &lt; P2.</opcion>
+            <opcion valor="d">P1 &gt; P2.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2023 -->
+
+    <pregunta>
+        <texto>Quins quatre components hi ha en un Sistema de computació?</texto>
+        <opciones>
+            <opcion valor="a">Hardware, sistema operatiu, aplicacions i usuaris.</opcion>
+            <opcion valor="b">CPU, RAM, disc i Kernel.</opcion>
+            <opcion valor="c">Hardware, kernel, dispositius E/S i drivers.</opcion>
+            <opcion valor="d">Aplicacions procedurals, lineals, seqüencials i recursives.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina diferencia hi ha entre kernel i sistema operatiu?</texto>
+        <opciones>
+            <opcion valor="a">No hi ha diferencia, és el mateix.</opcion>
+            <opcion valor="b">El kernel controla el hardware i el sistema operatiu el software.</opcion>
+            <opcion valor="c">El kernel controla el software i el sistema operatiu el hardware.</opcion>
+            <opcion valor="d">El sistema operatiu conté el kernel a més de les aplicacions del sistema.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Per a què es fan servir les interrupcions?</texto>
+        <opciones>
+            <opcion valor="a">Per permetre que els programes facin més càlculs.</opcion>
+            <opcion valor="b">Per permetre als usuaris fer un cafè al mig matí.</opcion>
+            <opcion valor="c">Per informar al kernel que un dispositiu ha finalitzat la operació sol·licitada.</opcion>
+            <opcion valor="d">Per permetre que un programa faci E/S directament.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què diferencia un SO multiprogramat d'un de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">La capacitat de carregar programes a memòria.</opcion>
+            <opcion valor="b">La capacitat d'escollir el moment de fer fora de CPU a un procés.</opcion>
+            <opcion valor="c">La capacitat d'executar-se en un sistema multiprocessador.</opcion>
+            <opcion valor="d">res, és el mateix.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què permet fer passar d'un procés single-thread a multi-thread?</texto>
+        <opciones>
+            <opcion valor="a">Incrementar el nombre d'usuaris connectats al sistema.</opcion>
+            <opcion valor="b">Poder executar-se en un sistema multiprogramat.</opcion>
+            <opcion valor="c">El estar executant diferents parts del procés de manera concurrent.</opcion>
+            <opcion valor="d">Incrementar el temps de resposta.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què diferencia un fitxer d'un disc dur?</texto>
+        <opciones>
+            <opcion valor="a">El primer és software i el segon és hardware.</opcion>
+            <opcion valor="b">El métode d'accés.</opcion>
+            <opcion valor="c">Les restriccions d'accés.</opcion>
+            <opcion valor="d">Cap, és el mateix.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quins són els tres estats principals d'un procés?</texto>
+        <opciones>
+            <opcion valor="a">New, Run i Terminated.</opcion>
+            <opcion valor="b">New, Run i Blocked.</opcion>
+            <opcion valor="c">Ready, Run i Blocked.</opcion>
+            <opcion valor="d">Run, Blocked i Terminated.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina evolució és possible per a un procés en un Sistema Operatiu de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">Run --&gt; Ready --&gt; Blocked --&gt; Run.</opcion>
+            <opcion valor="b">New --&gt; Ready --&gt; Run --&gt; Ready.</opcion>
+            <opcion valor="c">Run --&gt; Blocked --&gt; Ready --&gt; New.</opcion>
+            <opcion valor="d">New --&gt; Run --&gt; Blocked --&gt; Run.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què sortirà per pantalla si executem en una bash les següents comandes: x=5; y=5; z=x+y; echo $z</texto>
+        <opciones>
+            <opcion valor="a">10</opcion>
+            <opcion valor="b">x+y</opcion>
+            <opcion valor="c">55</opcion>
+            <opcion valor="d">5+5</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin tipus d'estructura té un sistema basat en Mach?</texto>
+        <opciones>
+            <opcion valor="a">Monolític.</opcion>
+            <opcion valor="b">Multicapa.</opcion>
+            <opcion valor="c">Microkernel.</opcion>
+            <opcion valor="d">Modular.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Que és el PCB?</texto>
+        <opciones>
+            <opcion valor="a">Process Control Block.</opcion>
+            <opcion valor="b">Program Counter Block.</opcion>
+            <opcion valor="c">Parallel and Concurrent Block.</opcion>
+            <opcion valor="d">Program Control Behaviour.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quin tipus de sistema operatiu és?</texto>
+        <imagen>imatges/execucio_tres_processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">Monoprogramat.</opcion>
+            <opcion valor="b">Multiprogramat apropiatiu.</opcion>
+            <opcion valor="c">Multiprogramat temps compartit.</opcion>
+            <opcion valor="d">Multiprogramat temps compartit apropiatiu.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina prioritat tenen els processos?</texto>
+        <imagen>imatges/execucio_tres_processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 &gt; P2 &gt; P3.</opcion>
+            <opcion valor="b">P2 &gt; P3 &gt; P1.</opcion>
+            <opcion valor="c">P1 &gt; P3 &gt; P2.</opcion>
+            <opcion valor="d">No tenen prioritats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps d'espera?</texto>
+        <imagen>imatges/execucio_tres_processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">5,66</opcion>
+            <opcion valor="b">19,66</opcion>
+            <opcion valor="c">20,33</opcion>
+            <opcion valor="d">14,66</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps de retorn?</texto>
+        <imagen>imatges/execucio_tres_processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">36</opcion>
+            <opcion valor="b">41,66</opcion>
+            <opcion valor="c">16,33</opcion>
+            <opcion valor="d">19,66</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2025 -->
+
+    <pregunta>
+        <texto>Si diem que un SO controla un programa...</texto>
+        <opciones>
+            <opcion valor="a">No el deixa pensar per si mateix.</opcion>
+            <opcion valor="b">Crea un PCB amb tota la informació necessària per poder executar-lo.</opcion>
+            <opcion valor="c">Gestiona i decideix la seva finalització.</opcion>
+            <opcion valor="d">Decideix quanta memòria necessita.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Si al fer una crida al sistema el programa fa un bucle d'espera sense bloquejar-se?</texto>
+        <opciones>
+            <opcion valor="a">Probablement és un SO monoprogramat.</opcion>
+            <opcion valor="b">Probablement és un SO multiprogramat.</opcion>
+            <opcion valor="c">Probablement és un SO multiprogramat de temps compartit.</opcion>
+            <opcion valor="d">És una situació impossible.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina interrupció és necessària per a SO de temps compartit?</texto>
+        <opciones>
+            <opcion valor="a">Timer</opcion>
+            <opcion valor="b">Teclat</opcion>
+            <opcion valor="c">Pantalla</opcion>
+            <opcion valor="d">Disc</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què és caching en la implementació d'un SO?</texto>
+        <opciones>
+            <opcion valor="a">La capacitat de carregar programes a memòria.</opcion>
+            <opcion valor="b">La capacitat d'escollir el moment de fer fora de CPU a un procés.</opcion>
+            <opcion valor="c">La capacitat d'executar-se en un sistema multiprocessador.</opcion>
+            <opcion valor="d">La capacitat de copiar dades d'un dispositiu lent a un de més ràpid.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Que permet fer la tècnica de DMA?</texto>
+        <opciones>
+            <opcion valor="a">Permet fer transferències entre disc i RAM sense usar la CPU.</opcion>
+            <opcion valor="b">Permet crear una cua de programes que s'executaran directament.</opcion>
+            <opcion valor="c">No es fa servir en els sistemes d'avui en dia.</opcion>
+            <opcion valor="d">Permet accedir als usuaris de manera directa.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què implica que un SO permeti l'execució de múltiples processos?</texto>
+        <opciones>
+            <opcion valor="a">Incrementar la utilització de la CPU.</opcion>
+            <opcion valor="b">Poder executar aplicacions compartint dades.</opcion>
+            <opcion valor="c">El estar executant diferents parts del procés de manera concurrent.</opcion>
+            <opcion valor="d">Reduir el temps de resposta de cada procés.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin disseny d'estructura té el UNIX original?</texto>
+        <opciones>
+            <opcion valor="a">Monolític.</opcion>
+            <opcion valor="b">Microkernel.</opcion>
+            <opcion valor="c">Per capes.</opcion>
+            <opcion valor="d">Modular.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina és la feina principal del 'bootstrap loader'?</texto>
+        <opciones>
+            <opcion valor="a">Localitzar el kernel del SO.</opcion>
+            <opcion valor="b">Carregar el kernel a memòria.</opcion>
+            <opcion valor="c">Permetre que el kernel comenci a executar-se.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què permet fer la comanda 'getopts'?</texto>
+        <opciones>
+            <opcion valor="a">Tractar opcions de comanda d'un caràcter.</opcion>
+            <opcion valor="b">Tractar opcions de comanda de més d'un caràcter.</opcion>
+            <opcion valor="c">Tractar opcions de comanda que comencen per '--'.</opcion>
+            <opcion valor="d">No existeix aquesta comanda.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Que implica que un SO sigui de Temps Real?</texto>
+        <opciones>
+            <opcion valor="a">Que el SO és monoprogramat.</opcion>
+            <opcion valor="b">Que si és un SO multiprogramat té prioritats.</opcion>
+            <opcion valor="c">Que els processos d'usuari no s'acaben mai.</opcion>
+            <opcion valor="d">Que els processos de sistema acaben sempre de manera correcta.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què diferencia el SJF del SRTF?</texto>
+        <opciones>
+            <opcion valor="a">SJF és apropiatiu i SRTF no.</opcion>
+            <opcion valor="b">SRTF és apropiatiu i SJF no.</opcion>
+            <opcion valor="c">SJF és un planificador de llarg termini i SRTF de curt termini.</opcion>
+            <opcion valor="d">SRTF és de temps real i SJF no.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quin tipus de sistema operatiu és?</texto>
+        <imagen>imatges/execucio_tres_processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">Monoprogramat.</opcion>
+            <opcion valor="b">Multiprogramat apropiatiu.</opcion>
+            <opcion valor="c">Multiprogramat temps compartit.</opcion>
+            <opcion valor="d">Multiprogramat temps compartit apropiatiu.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina prioritat tenen els processos?</texto>
+        <imagen>imatges/execucio_tres_processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 &gt; P2 &gt; P3.</opcion>
+            <opcion valor="b">P2 &gt; P3 &gt; P1.</opcion>
+            <opcion valor="c">P3 &gt; P1 &gt; P2.</opcion>
+            <opcion valor="d">No tenen prioritats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps d'espera?</texto>
+        <imagen>imatges/execucio_tres_processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">47/4</opcion>
+            <opcion valor="b">50/3</opcion>
+            <opcion valor="c">57/3</opcion>
+            <opcion valor="d">63/3</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donat el següent esquema d'execució de tres processos, quina és la mitja del temps de retorn?</texto>
+        <imagen>imatges/execucio_tres_processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">49/3</opcion>
+            <opcion valor="b">56/3</opcion>
+            <opcion valor="c">106/3</opcion>
+            <opcion valor="d">123/3</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2026 -->
+
+    <pregunta>
+        <texto>Si al fer una crida al sistema el programa la CPU queda lliure?</texto>
+        <opciones>
+            <opcion valor="a">Potser és un SO monoprogramat.</opcion>
+            <opcion valor="b">Potser és un SO multiprogramat.</opcion>
+            <opcion valor="c">La cua de Ready està buida.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què fa DMA en la implementació d'un SO?</texto>
+        <opciones>
+            <opcion valor="a">Millora la càrrega de programes a memòria.</opcion>
+            <opcion valor="b">La capacitat d'escollir el moment de fer fora de CPU a un procés.</opcion>
+            <opcion valor="c">La capacitat d'executar-se en un sistema multiprocessador.</opcion>
+            <opcion valor="d">La capacitat de copiar dades de memòria a la CPU.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Que permet fer la tècnica de Buffering?</texto>
+        <opciones>
+            <opcion valor="a">Permet fer transferències entre disc i RAM sense usar la CPU.</opcion>
+            <opcion valor="b">Permet crear una cua de programes que s'executaran directament.</opcion>
+            <opcion valor="c">Guarda dades a memòria per a una possible utilització posterior.</opcion>
+            <opcion valor="d">No es fa servir en els sistemes d'avui en dia.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què permet que un SO executi processos amb múltiples threads?</texto>
+        <opciones>
+            <opcion valor="a">Totes les opcions seguents:</opcion>
+            <opcion valor="b">Poder compartir dades entre els threads de manera automàtica.</opcion>
+            <opcion valor="c">Estar executant diferents parts del procés de manera concurrent.</opcion>
+            <opcion valor="d">Reduir el temps de resposta del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quin disseny d'estructura té el sistema MACH?</texto>
+        <opciones>
+            <opcion valor="a">Monolític.</opcion>
+            <opcion valor="b">Microkernel.</opcion>
+            <opcion valor="c">Per capes.</opcion>
+            <opcion valor="d">Modular.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina tasca té assignada el planificador de llarg termini?</texto>
+        <opciones>
+            <opcion valor="a">Decidir quan s'ha de començar a executar un procés.</opcion>
+            <opcion valor="b">Decidir quan s'ha de treure un tros de la memòria assignada a un procés.</opcion>
+            <opcion valor="c">Decidir l'ordre d'acabament dels processos.</opcion>
+            <opcion valor="d">Decidir retirar completament de memòria principal a un procés.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Quina evolució és possible per a un procés en un Sistema Operatiu multiprogramat?</texto>
+        <opciones>
+            <opcion valor="a">Run --&gt; Ready --&gt; Run --&gt; Blocked.</opcion>
+            <opcion valor="b">New --&gt; Ready --&gt; Run --&gt; Blocked.</opcion>
+            <opcion valor="c">Run --&gt; Blocked --&gt; Ready --&gt; New.</opcion>
+            <opcion valor="d">New --&gt; Run --&gt; Blocked --&gt; Run.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Què permet fer la comanda 'man'?</texto>
+        <opciones>
+            <opcion valor="a">Consulta les opcions d'una comanda.</opcion>
+            <opcion valor="b">Mostra la descripció d'una comanda.</opcion>
+            <opcion valor="c">Permet buscar comandes afins.</opcion>
+            <opcion valor="d">Totes les opcions son vàlides.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, quin tipus de sistema operatiu és?</texto>
+        <imagen>imatges/execucio_tres_processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">Monoprogramat.</opcion>
+            <opcion valor="b">Multiprogramat.</opcion>
+            <opcion valor="c">Multiprogramat temps compartit.</opcion>
+            <opcion valor="d">Multiprogramat temps compartit apropiatiu.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, quin prioritat tenen els processos?</texto>
+        <imagen>imatges/execucio_tres_processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 &gt; P2 &gt; P3.</opcion>
+            <opcion valor="b">P2 &gt; P3 = P1.</opcion>
+            <opcion valor="c">P3 = P1 &gt; P2.</opcion>
+            <opcion valor="d">No tenen prioritats.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, quina és la mitja del temps d'espera?</texto>
+        <imagen>imatges/execucio_tres_processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">44/3.</opcion>
+            <opcion valor="b">45/3.</opcion>
+            <opcion valor="c">56/3.</opcion>
+            <opcion valor="d">57/3.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>Donada la segúent execució de dos processos de temps real, quina és la mitja del temps de retorn?</texto>
+        <imagen>imatges/execucio_tres_processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">39/3.</opcion>
+            <opcion valor="b">48/3.</opcion>
+            <opcion valor="c">105/3.</opcion>
+            <opcion valor="d">122/3.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+</preguntas>

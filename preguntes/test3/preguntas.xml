@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+    <!-- RECULL TESTS DE TEORIA -->
+    <!-- PREGUNTES DE 2005 -->
+    <!-- 30 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 24 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR, 
+            quants bits té l'adreça base de la taula de segments?
+        </texto>
+        <opciones>
+            <opcion valor="a">20 bits.</opcion>
+            <opcion valor="b">17 bits.</opcion>
+            <opcion valor="c">7 bits.</opcion>
+            <opcion valor="d">3 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 31 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 24 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">1152 bits.</opcion>
+            <opcion valor="b">4736 bits.</opcion>
+            <opcion valor="c">4096 bits.</opcion>
+            <opcion valor="d">2176 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 32 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 24 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR, 
+            si les quatre primeres entrades de la taula de segments d'un procés són les de la imatge (tot en base 10), quina @ física correspon a @ lògica 47333?
+        </texto>
+        <imagen>imatges/taula_segments_1.png</imagen>
+        <opciones>
+            <opcion valor="a">4064.</opcion>
+            <opcion valor="b">2660.</opcion>
+            <opcion valor="c">3500.</opcion>
+            <opcion valor="d">segmentation fault.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 33 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 24 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR, 
+            si les quatre primeres entrades de la taula de segments d'un procés són les de la imatge (tot en base 10), quina @ lògica correspon a la @ física 3700?
+        </texto>
+        <imagen>imatges/taula_segments_1.png</imagen>
+        <opciones>
+            <opcion valor="a">3500</opcion>
+            <opcion valor="b">200</opcion>
+            <opcion valor="c">393416</opcion>
+            <opcion valor="d">393216</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 34 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 24 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgines de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">4096</opcion>
+            <opcion valor="b">40960</opcion>
+            <opcion valor="c">32768</opcion>
+            <opcion valor="d">36864</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 35 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 24 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgines de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, si un procés té la següent taula de pàgines (tot en base 10),
+            quina @ física correspon a la @ lògica 10000?
+        </texto>
+        <imagen>imatges/taula_pagines_1.png</imagen>
+        <opciones>
+            <opcion valor="a">1908</opcion>
+            <opcion valor="b">411408</opcion>
+            <opcion valor="c">409600</opcion>
+            <opcion valor="d">Pagination Fault.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 36 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 24 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgines de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, si un procés té la següent taula de pàgines (tot en base 10),
+            quina @ lògica correspon a la @ física 410000?
+        </texto>
+        <imagen>imatges/taula_pagines_1.png</imagen>
+        <opciones>
+            <opcion valor="a">4096</opcion>
+            <opcion valor="b">8192</opcion>
+            <opcion valor="c">8592</opcion>
+            <opcion valor="d">12688</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 37 -->
+    <pregunta>
+        <texto>
+            En un sistema de memòria virtual paginada on la memòria principal té un màxim de 256 Mbytes i la memòria auxiliar és de 512 Mbytes, 
+            la mida actual que genera la MMU és de:
+        </texto>
+        <opciones>
+            <opcion valor="a">28 bits.</opcion>
+            <opcion valor="b">32 bits.</opcion>
+            <opcion valor="c">29 bits.</opcion>
+            <opcion valor="d">30 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 38 -->
+    <pregunta>
+        <texto>Si un sistema té una taxa de falles del 1%, que ens indica?</texto>
+        <opciones>
+            <opcion valor="a">Que està en trashing (sobrepaginació).</opcion>
+            <opcion valor="b">Que és impossible.</opcion>
+            <opcion valor="c">Que ens donarà un temps mitjà d'accés proper a pocs nanosegons.</opcion>
+            <opcion valor="d">Que ens donarà un temps mitjà d'accés proper a pocs milisegons.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 39 -->
+    <pregunta>
+        <texto>Quina és la funció principal del PTBR?</texto>
+        <opciones>
+            <opcion valor="a">Reduir el temps mitjà d'accés a memòria.</opcion>
+            <opcion valor="b">Reduir la taxa de fallades de pàgina.</opcion>
+            <opcion valor="c">Reduir la taxa de hits de la cache.</opcion>
+            <opcion valor="d">Emmagatzemar l'adreça base de la taula de pàgines.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 40 -->
+    <pregunta>
+        <texto>La compartició d'un frame entre dos processos:</texto>
+        <opciones>
+            <opcion valor="a">No és possible.</opcion>
+            <opcion valor="b">Només és possible en lectura.</opcion>
+            <opcion valor="c">Requereix sincronització per a ser accedida correctament en escriptura.</opcion>
+            <opcion valor="d">És possible i no li cal cap mena de sincronització.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 41 -->
+    <pregunta>
+        <texto>Què significa assignació de pàgines variable i reemplaçament global?</texto>
+        <opciones>
+            <opcion valor="a">Que el nombre de pàgines dels processos és igual i quan es reemplaça una pàgina pertany al propi procés.</opcion>
+            <opcion valor="b">Que el nombre de pàgines dels processos és diferent i quan es reemplaça una pàgina pertany al propi procés.</opcion>
+            <opcion valor="c">Que el nombre de pàgines dels processos és diferent i quan es reemplaça una pàgina pot ser de qualsevol procés.</opcion>
+            <opcion valor="d">Que el nombre de pàgines dels processos és igual i quan es reemplaça una pàgina potser de qualsevol procés.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 42 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat i un sistema amb 16 frames amb els següents bits de referència: 
+            1,0,1,1, 0,1,1,1, 0,0,1,0, 1,1,1,1. Si el darrer reemplaçament va ser del frame 6, quin frame s'escollirà ara?</texto>
+        <opciones>
+            <opcion valor="a">10</opcion>
+            <opcion valor="b">6</opcion>
+            <opcion valor="c">11</opcion>
+            <opcion valor="d">8</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 43 -->
+    <pregunta>
+        <texto>Quin és el mètode més habitual d'estructuració de fitxers?</texto>
+        <opciones>
+            <opcion valor="a">Pila.</opcion>
+            <opcion valor="b">Seqüencial.</opcion>
+            <opcion valor="c">Seqüencial Indexat.</opcion>
+            <opcion valor="d">Directes o Hash.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 44 -->
+    <pregunta>
+        <texto>Quin és la pitjor estructuració per a una lectura seqüencial i ordenada d'un fitxer?</texto>
+        <opciones>
+            <opcion valor="a">Pila.</opcion>
+            <opcion valor="b">Seqüencial.</opcion>
+            <opcion valor="c">Seqüencial Indexat.</opcion>
+            <opcion valor="d">Directes o Hash.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 45 -->
+    <pregunta>
+        <texto>Que és el directori de treball?</texto>
+        <opciones>
+            <opcion valor="a">El directori on ens trobem cada cop que entren al sistema.</opcion>
+            <opcion valor="b">El directori arrel del sistema de fitxers.</opcion>
+            <opcion valor="c">El directori de creació de fitxers temporals.</opcion>
+            <opcion valor="d">El directori on els noms relatius no contenen cap altre directori.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 46 -->
+    <pregunta>
+        <texto>Quan un usuari vol accedir a un fitxer, què es comprova?</texto>
+        <opciones>
+            <opcion valor="a">La relació de l'usuari amb l'administrador del sistema.</opcion>
+            <opcion valor="b">Els drets de lectura del propietari.</opcion>
+            <opcion valor="c">La relació de l'usuari amb el propietari i els drets del tipus d'usuari d'aquesta relació.</opcion>
+            <opcion valor="d">Els drets d'accés del grup d'usuaris al que pertany.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 47 -->
+    <pregunta>
+        <texto>El sistema FAT fa servir per a emmagatzemar totes les dades d'un fitxer:</texto>
+        <opciones>
+            <opcion valor="a">Assignació de blocs contigus.</opcion>
+            <opcion valor="b">Assignació encadenada de blocs.</opcion>
+            <opcion valor="c">Assignació indexada de blocs.</opcion>
+            <opcion valor="d">Una taula d'i-nodes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 48 -->
+    <pregunta>
+        <texto>El sistema UNIX fa servir per a emmagatzemar totes les dades d'un fitxer:</texto>
+        <opciones>
+            <opcion valor="a">Assignació de blocs contigus.</opcion>
+            <opcion valor="b">Assignació encadenada de blocs.</opcion>
+            <opcion valor="c">Assignació indexada de blocs.</opcion>
+            <opcion valor="d">Una taula d'i-nodes.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 49 -->
+    <pregunta>
+        <texto>A la gestió de l'espai lliure del disc, què significa cada entrada de la taula de bits?</texto>
+        <opciones>
+            <opcion valor="a">Si el bloc està a memòria principal o a disc.</opcion>
+            <opcion valor="b">Si el bloc està lliure o assignat.</opcion>
+            <opcion valor="c">Si el bloc està modificat.</opcion>
+            <opcion valor="d">Si el bloc és vàlid o invàlid.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 50 -->
+    <pregunta>
+        <texto>
+            Donada una partició de 4 GBytes formatada en UNIX, una mida del bloc de dades de 16 KBytes i els apuntadors son de 4 bytes.
+            Quina és la mida màxima d'un fitxer si tenim 5 apuntadors directes i un únic d'indirecte?
+        </texto>
+        <opciones>
+            <opcion valor="a">81920 bytes.</opcion>
+            <opcion valor="b">67108854 bytes.</opcion>
+            <opcion valor="c">67190784 bytes.</opcion>
+            <opcion valor="d">16777216 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2006 -->
+	<!-- 24 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 22 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR:
+            Quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">4480 bits.</opcion>
+            <opcion valor="b">4096 bits.</opcion>
+            <opcion valor="c">2560 bits.</opcion>
+            <opcion valor="d">1920 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 25 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 22 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR:
+            Quants bits té l'adreça base de la taula de segments?
+        </texto>
+        <opciones>
+            <opcion valor="a">22 bits.</opcion>
+            <opcion valor="b">20 bits.</opcion>
+            <opcion valor="c">7 bits.</opcion>
+            <opcion valor="d">5 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 26 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 22 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR:
+            Si les quatre primeres entrades de la taula de segments d'un procés són les de la imatge (tot en base 10), 
+            quina @ lògica correspon a la @ física 3700?
+        </texto>
+        <imagen>imatges/taula_segments_2.png</imagen>
+        <opciones>
+            <opcion valor="a">700</opcion>
+            <opcion valor="b">49152</opcion>
+            <opcion valor="c">98504</opcion>
+            <opcion valor="d">98304</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 27 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 128 segments lògics, 22 bits d'adreça lògica i 20 bits d'adreça física, amb registres STBR i STLR:
+            Si les quatre primeres entrades de la taula de segments d'un procés són les de la imatge (tot en base 10), 
+            quina @ física correspon a la @ lògica 65636?
+        </texto>
+        <imagen>imatges/taula_segments_2.png</imagen>
+        <opciones>
+            <opcion valor="a">4100</opcion>
+            <opcion valor="b">2500</opcion>
+            <opcion valor="c">3500</opcion>
+            <opcion valor="d">segmentation fault.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 28 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 16 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgina de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">128 bits.</opcion>
+            <opcion valor="b">256 bits.</opcion>
+            <opcion valor="c">130 bits.</opcion>
+            <opcion valor="d">160 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 29 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 16 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgina de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, si un procés té la taula de pàgines de la imatge (tot en base 10),
+            quina @ física correspon a la @ lògica 8292?
+        </texto>
+        <imagen>imatges/taula_pagines_2.png</imagen>
+        <opciones>
+            <opcion valor="a">220</opcion>
+            <opcion valor="b">491620</opcion>
+            <opcion valor="c">409700</opcion>
+            <opcion valor="d">Pagination fault.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 30 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 16 bits d'adreça lògica, 20 bits d'adreça física, una mida de pàgina de 4 KB, 
+            amb bit de validesa i de presència i registres PTBR i PTLR, si un procés té la taula de pàgines de la imatge (tot en base 10),
+            quina @ lògica correspon a la @ física 819204?
+        </texto>
+        <imagen>imatges/taula_pagines_2.png</imagen>
+        <opciones>
+            <opcion valor="a">4097</opcion>
+            <opcion valor="b">4196</opcion>
+            <opcion valor="c">8192</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 31 -->
+    <pregunta>
+        <texto>
+            En un sistema de memòria virtual on la memòria principal és de 16 Mbytes i les pàgines són de 2 Kbytes.
+            Quants bits té una entrada de la taula de pàgines?
+        </texto>
+        <opciones>
+            <opcion valor="a">11 bits.</opcion>
+            <opcion valor="b">12 bits.</opcion>
+            <opcion valor="c">13 bits.</opcion>
+            <opcion valor="d">14 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 32  -->
+    <pregunta>
+        <texto>Si un sistema té una taxa de falles del 50%, que ens indica?</texto>
+        <opciones>
+            <opcion valor="a">Que està en trashing (sobrepaginació).</opcion>
+            <opcion valor="b">Que és impossible.</opcion>
+            <opcion valor="c">Que ens donarà un temps mitjà d'accés proper a pocs nanosegons.</opcion>
+            <opcion valor="d">Que la seva productivitat serà molt alta.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 33 -->
+    <pregunta>
+        <texto>Quina política es pot utilitzar per a generar una lectura d'una pàgina des de disc a memòria?</texto>
+        <opciones>
+            <opcion valor="a">LRU.</opcion>
+            <opcion valor="b">Sota demanda.</opcion>
+            <opcion valor="c">FIFO.</opcion>
+            <opcion valor="d">De rellotge (NRU o segona oportunitat).</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 34 -->
+    <pregunta>
+        <texto>Què aporta el swapper (planificador de mig termini) a la memòria virtual?</texto>
+        <opciones>
+            <opcion valor="a">Vigilar i arreglar el sistema quan hi ha trashing (sobrepaginació).</opcion>
+            <opcion valor="b">Eliminar la necessitat d'implementar un TLB.</opcion>
+            <opcion valor="c">Eliminar la necessitat de tenir PTBR o STBR.</opcion>
+            <opcion valor="d">Res.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 35 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat i un sistema amb 16 frames amb els següents bits de referència:
+            1,0,1,1, 0,1,1,1, 0,0,1,0, 1,1,1,1 (la numeració comença al frame 0). Si el darrer reemplaçament va ser del frame 4, quin frame s'escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">1</opcion>
+            <opcion valor="b">4</opcion>
+            <opcion valor="c">5</opcion>
+            <opcion valor="d">8</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 36 -->
+    <pregunta>
+        <texto>En assignació continua de dades d'un fitxer, quina afirmació és falsa?</texto>
+        <opciones>
+            <opcion valor="a">Pateix de fragmentació interna.</opcion>
+            <opcion valor="b">Pateix de fragmentació externa.</opcion>
+            <opcion valor="c">Només cal conèixer el número de bloc inicial i quants blocs hi ha per accedir a qualsevol byte del fitxer.</opcion>
+            <opcion valor="d">Necessitem una llista exhaustiva dels blocs que té assignats els fitxers per accedir a qualsevol byte del fitxer.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 37 -->
+    <pregunta>
+        <texto>
+            Donat un sistema de fitxers implementat en FAT32, on la mida del Bloc de dades és de 1 Kbyte i el disc és de 1 Gbyte. 
+            Quants fitxers es poden crear com a molt? 
+        </texto>
+        <opciones>
+            <opcion valor="a">2^19</opcion>
+            <opcion valor="b">2^30</opcion>
+            <opcion valor="c">1048576</opcion>
+            <opcion valor="d">1044495</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 38 -->
+    <pregunta>
+        <texto>
+            Donat un sistema de fitxers implementat en FAT32, on la mida del Bloc de dades és de 1 Kbyte i el disc és de 1 Gbyte.
+            Quina és la mida màxima d'un fitxer?
+        </texto>
+        <opciones>
+            <opcion valor="a">1073741824 bytes.</opcion>
+            <opcion valor="b">1073740800 bytes.</opcion>
+            <opcion valor="c">1069562880 bytes.</opcion>
+            <opcion valor="d">1069561856 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 39 -->
+    <pregunta>
+        <texto>
+            Donat un sistema de fitxers basat en i-nodes, on el disc és de 1 Gbyte i hi ha 5 apuntadors directes, un indirecte i un doble indirecte.
+            Els apuntadors són de 4 bytes i els blocs són de 1 Kbyte. Quina mida màxima pot tenir un fitxer en aquest sistema?
+        </texto>
+        <opciones>
+            <opcion valor="a">1 Gbyte.</opcion>
+            <opcion valor="b">67.376.128 bytes.</opcion>
+            <opcion valor="c">1.074.795.520 bytes.</opcion>
+            <opcion valor="d">67.108.864 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 40 -->
+    <pregunta>
+        <texto>
+            Donat un sistema de fitxers basat en i-nodes, on el disc és de 1 Gbyte i hi ha 5 apuntadors directes, un indirecte i un doble indirecte.
+            Els apuntadors sómn de 4 bytes i els blocs són de 1 Kbyte. Quants accesos a disc hem de fer per accedir al byte 200.000 si ja tenim el i-node
+            carregat a memòria?
+        </texto>
+        <opciones>
+            <opcion valor="a">1</opcion>
+            <opcion valor="b">2</opcion>
+            <opcion valor="c">3</opcion>
+            <opcion valor="d">4</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DEL 2023 A -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">30 i 20 bits.</opcion>
+            <opcion valor="b">28 i 20 bits.</opcion>
+            <opcion valor="c">28 i 10 bits.</opcion>
+            <opcion valor="d">20 i 10 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 2 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^10*(20+28) bits.</opcion>
+            <opcion valor="b">2^20*(10+28) bits.</opcion>
+            <opcion valor="c">2^30*(28) bits.</opcion>
+            <opcion valor="d">2^28*(30) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima d'un segment?
+        </texto>
+        <opciones>
+            <opcion valor="a">1 Mbytes.</opcion>
+            <opcion valor="b">512 Kbytes.</opcion>
+            <opcion valor="c">256 Kbytes.</opcion>
+            <opcion valor="d">128 Kbytes.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ física correspon a la @ lògica 110.000?
+        </texto>
+        <imagen>imatges/taula_segments_4.png</imagen>
+        <opciones>
+            <opcion valor="a">30.000</opcion>
+            <opcion valor="b">130.000</opcion>
+            <opcion valor="c">10.000</opcion>
+            <opcion valor="d">"segmentation fault"</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ lògica correspon a la @ física 260.000?
+        </texto>
+        <imagen>imatges/taula_segments_4.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000</opcion>
+            <opcion valor="b">1.048.576</opcion>
+            <opcion valor="c">3.145.728</opcion>
+            <opcion valor="d">3.155.728</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 30 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            si el Kernel estés ubicat a memòria física de l'adreça 0 a l'adreça 99.999, i només estés carregat a memòria aquest procés:
+            Quina seria la mida del bloc més petit per fragmentació externa?
+        </texto>
+        <imagen>imatges/taula_segments_4.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000 bytes.</opcion>
+            <opcion valor="b">20.000 bytes.</opcion>
+            <opcion valor="c">30.000 bytes.</opcion>
+            <opcion valor="d">40.000 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, quants frames hi ha?
+        </texto>
+        <opciones>
+            <opcion valor="a">8.192</opcion>
+            <opcion valor="b">32.768</opcion>
+            <opcion valor="c">268.435.456</opcion>
+            <opcion valor="d">1.073.741.824</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^13*(13) bits.</opcion>
+            <opcion valor="b">2^15*(15) bits.</opcion>
+            <opcion valor="c">2^17*(17) bits.</opcion>
+            <opcion valor="d">2^17*(15) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ física correspon a la @ lògica 10.000?
+        </texto>
+        <imagen>imatges/taula_pagines_3.png</imagen>
+        <opciones>
+            <opcion valor="a">1.804</opcion>
+            <opcion valor="b">163.840</opcion>
+            <opcion valor="c">165.648</opcion>
+            <opcion valor="d">"Pagination Fault"</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ lògica correspon a la @ física 81.930?
+        </texto>
+        <imagen>imatges/taula_pagines_3.png</imagen>
+        <opciones>
+            <opcion valor="a">10</opcion>
+            <opcion valor="b">4.192</opcion>
+            <opcion valor="c">4.202</opcion>
+            <opcion valor="d">8.202</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 450, 150, 250, 500, 700, 300, 650.
+            Quin algorisme s'ha aplicat si per una petició de 200 s'ha escollit el 250?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>Si un sistema té una taxa de fallades de pàgines del 0.0001%, què ens indica?</texto>
+        <opciones>
+            <opcion valor="a">Que està en trashing.</opcion>
+            <opcion valor="b">Que donarà un temps mitjà d'accés a memòria de l'ordre dels nanosegons.</opcion>
+            <opcion valor="c">Que donarà un temps mitjà d'accés a memòria de l'ordre dels milisegons.</opcion>
+            <opcion valor="d">No és possible.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>Quin procés de sistema s'encarrega de no entrar en trashing?</texto>
+        <opciones>
+            <opcion valor="a">Init.</opcion>
+            <opcion valor="b">Pager.</opcion>
+            <opcion valor="c">Swapper.</opcion>
+            <opcion valor="d">Planificador de llarg termini.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>Quina diferència important hi ha entre reubicació estàtica i dinàmica?</texto>
+        <opciones>
+            <opcion valor="a">El moment de traduir les adreces lògiques a físiques.</opcion>
+            <opcion valor="b">La capacitat de fer possible una compactació.</opcion>
+            <opcion valor="c">La necessitat de tenir MMU o no tenir-ne.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>Què significa MMU?</texto>
+        <opciones>
+            <opcion valor="a">Memory Managment Unit.</opcion>
+            <opcion valor="b">Massive Managment Unit.</opcion>
+            <opcion valor="c">Memory Massive Unification.</opcion>
+            <opcion valor="d">More Memory Unnecessary.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 16 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència: 
+            1,0,1,0, 0,0,0,0, 0,0,1,0, 1,0,0,1 (es comença a comptar a partir del frame 0). Si el darrer reemplaçament va ser del frame 1, 
+            quin frame escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">1</opcion>
+            <opcion valor="b">2</opcion>
+            <opcion valor="c">3</opcion>
+            <opcion valor="d">4</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DEL 2023 B -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">30 i 19 bits.</opcion>
+            <opcion valor="b">28 i 19 bits.</opcion>
+            <opcion valor="c">28 i 10 bits.</opcion>
+            <opcion valor="d">19 i 10 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 2 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR, 
+            quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^10*(19+28) bits.</opcion>
+            <opcion valor="b">2^19*(10+28) bits.</opcion>
+            <opcion valor="c">2^30*(28) bits.</opcion>
+            <opcion valor="d">2^28*(30) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima d'un segment?
+        </texto>
+        <opciones>
+            <opcion valor="a">1 Mbytes.</opcion>
+            <opcion valor="b">512 Kbytes.</opcion>
+            <opcion valor="c">256 Kbytes.</opcion>
+            <opcion valor="d">128 Kbytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ física correspon a la @ lògica 101.000?
+        </texto>
+        <imagen>imatges/taula_segments_5.png</imagen>
+        <opciones>
+            <opcion valor="a">30.000</opcion>
+            <opcion valor="b">130.000</opcion>
+            <opcion valor="c">10.000</opcion>
+            <opcion valor="d">"segmentation fault"</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ lògica correspon a la @ física 210.000?
+        </texto>
+        <imagen>imatges/taula_segments_5.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000</opcion>
+            <opcion valor="b">1.048.576</opcion>
+            <opcion valor="c">1.058.576</opcion>
+            <opcion valor="d">3.155.728</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 1024 segments lògics, 29 bits d'adreça lògica i 28 bits d'adreça física, amb registres STBR i STLR,
+            si les quatre primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            Si el Kernel estés ubicat a memòria física de l'adreça 0 a l'adreça 99.999, i només estés carregat a memòria aquest procés:
+            Quina seria la mida del bloc més petit per fragmentació externa?
+        </texto>
+         <imagen>imatges/taula_segments_5.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000 bytes.</opcion>
+            <opcion valor="b">20.000 bytes.</opcion>
+            <opcion valor="c">30.000 bytes.</opcion>
+            <opcion valor="d">40.000 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 29 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa
+            i de presència i registres PTBR i PTLR, quants frames hi ha?
+        </texto>
+        <opciones>
+            <opcion valor="a">8.192</opcion>
+            <opcion valor="b">32.768</opcion>
+            <opcion valor="c">268.435.456</opcion>
+            <opcion valor="d">1.073.741.824</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 29 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa
+            i de presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^13*(13) bits.</opcion>
+            <opcion valor="b">2^15*(15) bits.</opcion>
+            <opcion valor="c">2^16*(17) bits.</opcion>
+            <opcion valor="d">2^16*(15) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 29 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ física correspon a la @ lògica 9.000?
+        </texto>
+        <imagen>imatges/taula_pagines_4.png</imagen>
+        <opciones>
+            <opcion valor="a">808</opcion>
+            <opcion valor="b">163.840</opcion>
+            <opcion valor="c">164.648</opcion>
+            <opcion valor="d">"Pagination Fault"</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 29 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ lògica correspon a la @ física 81.925?
+        </texto>
+        <imagen>imatges/taula_pagines_4.png</imagen>
+        <opciones>
+            <opcion valor="a">5</opcion>
+            <opcion valor="b">4.096</opcion>
+            <opcion valor="c">4.101</opcion>
+            <opcion valor="d">8.197</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 450, 150, 250, 500, 700, 300, 650.
+            Quin algorisme s'ha aplicat si per una petició de 600 s'ha escollit el 650?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència:
+            1,0,1,0, 0,0,0,0, 0,0,1,0, 1,0,0,1 (es comença a comptar a partir del frame 0).
+            Si el darrer reemplaçament va ser del frame 15, quin frame s'escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">1</opcion>
+            <opcion valor="b">2</opcion>
+            <opcion valor="c">3</opcion>
+            <opcion valor="d">4</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2024 A -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">31 i 20 bits.</opcion>
+            <opcion valor="b">29 i 20 bits.</opcion>
+            <opcion valor="c">31 i 11 bits.</opcion>
+            <opcion valor="d">29 i 11 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 2 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^11*(20+29) bits.</opcion>
+            <opcion valor="b">2^20*(11+29) bits.</opcion>
+            <opcion valor="c">2^31*(29) bits.</opcion>
+            <opcion valor="d">2^29*(31) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima d'un segment?
+        </texto>
+        <opciones>
+            <opcion valor="a">2 Mbytes.</opcion>
+            <opcion valor="b">1 Mbytes.</opcion>
+            <opcion valor="c">512 Kbytes.</opcion>
+            <opcion valor="d">256 Kbytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            si les primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ física correspon a la @ lògica 4.200.000?
+        </texto>
+        <imagen>imatges/taula_segments_6.png</imagen>
+        <opciones>
+            <opcion valor="a">30.000</opcion>
+            <opcion valor="b">600.000</opcion>
+            <opcion valor="c">605.696</opcion>
+            <opcion valor="d">35.696</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            si les primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, 
+            quina @ lògica correspon a la @ física 520.000?
+        </texto>
+        <imagen>imatges/taula_segments_6.png</imagen>
+        <opciones>
+            <opcion valor="a">20.000</opcion>
+            <opcion valor="b">1.048.576</opcion>
+            <opcion valor="c">3.145.728</opcion>
+            <opcion valor="d">3.165.728</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            si les primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, si a partir de l'adreça 650.000 està tot ocupat.
+            Quina seria la mida del bloc més petit per fragmentació externa?
+        </texto>
+        <imagen>imatges/taula_segments_6.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000 bytes.</opcion>
+            <opcion valor="b">20.000 bytes.</opcion>
+            <opcion valor="c">75.000 bytes.</opcion>
+            <opcion valor="d">90.000 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica i 29 bits d'adreça física, una mida de pàgina de 32 KB, amb bit de validesa i bit
+            de presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^14*(14) bits.</opcion>
+            <opcion valor="b">2^15*(15) bits.</opcion>
+            <opcion valor="c">2^16*(16) bits.</opcion>
+            <opcion valor="d">2^17*(17) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 32 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ física correspon a la @ lògica 10.000?
+        </texto>
+        <imagen>imatges/taula_pagines_5.png</imagen>
+        <opciones>
+            <opcion valor="a">10.000</opcion>
+            <opcion valor="b">327.680</opcion>
+            <opcion valor="c">337.680</opcion>
+            <opcion valor="d">"Pagination Fault"</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 32 KB, amb bit de validesa i de
+            presència i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ lògica correspon a la @ física 675.360?
+        </texto>
+        <imagen>imatges/taula_pagines_5.png</imagen>
+        <opciones>
+            <opcion valor="a">20.000</opcion>
+            <opcion valor="b">32.768</opcion>
+            <opcion valor="c">52.768</opcion>
+            <opcion valor="d">65.536</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 350, 50, 450, 200, 700, 150, 650.
+            Quin algorisme s'ha aplicat si per una petició de 300 s'ha escollit el 700?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència:
+            1,0,1,0, 0,0,1,0, 0,0,1,0, 1,0,0,1 (es comença a comptar a partir del frame 0). Si el darrer reemplaçament va ser del frame 5, quin escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">5</opcion>
+            <opcion valor="b">6</opcion>
+            <opcion valor="c">7</opcion>
+            <opcion valor="d">8</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>Quina és la funció del comparador que utilitza el STLR?</texto>
+        <opciones>
+            <opcion valor="a">No sortir dels límits de la memòria RAM.</opcion>
+            <opcion valor="b">No sortir dels límits de la memòria del Kernel.</opcion>
+            <opcion valor="c">No sortir dels límits de la memòria del procés.</opcion>
+            <opcion valor="d">No sortir dels límits de la taula de traducció del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>Quina és la funció del comparador que utilitza el desplaçament d'un segment?</texto>
+        <opciones>
+            <opcion valor="a">No sortir dels límits de la memòria RAM.</opcion>
+            <opcion valor="b">No sortir dels límits de la memòria del Kernel.</opcion>
+            <opcion valor="c">No sortir dels límits de la memòria del procés.</opcion>
+            <opcion valor="d">No sortir dels límits de la taula de traducció del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>La reubicació dinàmica:</texto>
+        <opciones>
+            <opcion valor="a">La fa servir les llibreries dinàmiques.</opcion>
+            <opcion valor="b">Es fa en el moment de creació del procés.</opcion>
+            <opcion valor="c">Es fa servir pels mecanismes de gestió basats en pàgines.</opcion>
+            <opcion valor="d">Es fa servir per tenir memòria compartida.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>Per a què fa servir el swapper el dirty-bit?</texto>
+        <opciones>
+            <opcion valor="a">Per a marcar zones de disc errònies.</opcion>
+            <opcion valor="b">Per marcar zones de memòria principal errònies.</opcion>
+            <opcion valor="c">Per a estalviar temps.</opcion>
+            <opcion valor="d">Per a res.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>Què millora la paginació respecte la segmentació?</texto>
+        <opciones>
+            <opcion valor="a">La gestió de memòria lliure.</opcion>
+            <opcion valor="b">Poder tenir un TLB.</opcion>
+            <opcion valor="c">La fragmentació interna.</opcion>
+            <opcion valor="d">Son equivalents.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>Quin bit és imprescindible per a poder implementar memòria virtual?</texto>
+        <opciones>
+            <opcion valor="a">Referència.</opcion>
+            <opcion valor="b">Dirty-bit.</opcion>
+            <opcion valor="c">Presència.</opcion>
+            <opcion valor="d">RWX.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>Quin tipus de fragmentació té un sistema de Buddy?</texto>
+        <opciones>
+            <opcion valor="a">Només interna.</opcion>
+            <opcion valor="b">Només externa.</opcion>
+            <opcion valor="c">Interna i externa.</opcion>
+            <opcion valor="d">No en té.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2024 B -->
+	<!-- 2 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 32 KB, amb bit de validesa i bit
+            de presència, quina és la mida de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^14*(14) bits.</opcion>
+            <opcion valor="b">2^15*(15) bits.</opcion>
+            <opcion valor="c">2^16*(16) bits.</opcion>
+            <opcion valor="d">2^17*(17) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica i 29 bits d'adreça física, una mida de pàgina de 32 KB, amb bit de validesa i bit de
+            presència, si un procés té la taula de pàgines (en base 10) de l'imatge, quina @ lògica correspon a la @ física 675.360?
+        </texto>
+        <imagen>imatges/taula_pagines_6.png</imagen>
+        <opciones>
+            <opcion valor="a">20.000</opcion>
+            <opcion valor="b">32.768</opcion>
+            <opcion valor="c">52.768</opcion>
+            <opcion valor="d">65.536</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">31 i 20 bits.</opcion>
+            <opcion valor="b">29 i 20 bits.</opcion>
+            <opcion valor="c">31 i 11 bits.</opcion>
+            <opcion valor="d">29 i 11 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^11*(20+29) bits.</opcion>
+            <opcion valor="b">2^20*(11+29) bits.</opcion>
+            <opcion valor="c">2^31*(29) bits.</opcion>
+            <opcion valor="d">2^29*(31) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            quina és la mida màxima d'un segment?
+        </texto>
+        <opciones>
+            <opcion valor="a">2 Mbytes.</opcion>
+            <opcion valor="b">1 Mbytes.</opcion>
+            <opcion valor="c">512 Kbytes.</opcion>
+            <opcion valor="d">256 Kbytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb 2048 segments lògics, 31 bits d'adreça lògica i 29 bits d'adreça física, amb registres STBR i STLR,
+            si les primeres entrades de la taula de segments d'un procés són (en base 10) les de l'imatge, si a partir de l'adreça de memòria física 650.000
+            està tot ocupat pel Kernel i altres processos. Quina seria la mida del bloc més gran per fragmentació externa?
+        </texto>
+        <imagen>imatges/taula_segments_7.png</imagen>
+        <opciones>
+            <opcion valor="a">30.000 bytes.</opcion>
+            <opcion valor="b">75.000 bytes.</opcion>
+            <opcion valor="c">90.000 bytes.</opcion>
+            <opcion valor="d">200.000 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 350, 50, 450, 200, 700, 150, 650.
+            Quin algorisme s'ha aplicat si per una petició de 600 s'ha escollit el 650?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència:
+            1,0,1,0, 0,0,1,0, 0,0,1,0, 1,0,0,1 (es comença a comptar a partir del frame 0). Si el darrer reemplaçament va ser del frame 9,
+            quin frame escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">9</opcion>
+            <opcion valor="b">10</opcion>
+            <opcion valor="c">11</opcion>
+            <opcion valor="d">12</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>Quin bit és imprescindible per a poder implementar memòria virtual?</texto>
+        <opciones>
+            <opcion valor="a">Presència.</opcion>
+            <opcion valor="b">Dirty-bit.</opcion>
+            <opcion valor="c">Referència.</opcion>
+            <opcion valor="d">RWX.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2025 -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 150, 550, 320, 200, 500, 120, 650.
+            Quin algorisme s'ha aplicat si per una petició de 300 s'ha escollit el 320?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència:
+            1,0,1,0, 0,0,1,0, 0,0,1,0, 1,0,0,1 (es comença a comptar a partir del frame 0). Si el darrer reemplaçament va ser del frame 2, 
+            quin frame escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">2</opcion>
+            <opcion valor="b">3</opcion>
+            <opcion valor="c">4</opcion>
+            <opcion valor="d">5</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>Quina és la funció del comparador que utilitza el límit o mida d'un segment?</texto>
+        <opciones>
+            <opcion valor="a">No sortir dels límits de la memòria RAM.</opcion>
+            <opcion valor="b">No sortir dels límits de la memòria del Kernel.</opcion>
+            <opcion valor="c">No sortir dels límits de la memòria del procés.</opcion>
+            <opcion valor="d">No sortir dels límits de la taula de traducció del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>Quina és la funció de la suma que utilitza el desplaçament d'un segment?</texto>
+        <opciones>
+            <opcion valor="a">Calcular l'adreça física.</opcion>
+            <opcion valor="b">Calcular l'adreça de la memòria del Kernel.</opcion>
+            <opcion valor="c">Calcular el límit de la memòria del procés.</opcion>
+            <opcion valor="d">Calcular l'adreça de la taula de traducció del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>La reubicació estàtica:</texto>
+        <opciones>
+            <opcion valor="a">La fan servir les llibreries dinàmiques.</opcion>
+            <opcion valor="b">Es fa en el moment de creació del procés.</opcion>
+            <opcion valor="c">Es fa servir pels mecanismes de gestió basats en pàgines.</opcion>
+            <opcion valor="d">Es fa servir per tenir memòria compartida.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>Què millora la segmentació respecte la paginació?</texto>
+        <opciones>
+            <opcion valor="a">La gestió de memòria lliure.</opcion>
+            <opcion valor="b">Poder tenir un TLB.</opcion>
+            <opcion valor="c">La fragmentació interna.</opcion>
+            <opcion valor="d">Son equivalents.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>Quin bit és imprescindible per a poder implementar l'algorisme del rellotge?</texto>
+        <opciones>
+            <opcion valor="a">Referència.</opcion>
+            <opcion valor="b">Dirty-bit.</opcion>
+            <opcion valor="c">Presència.</opcion>
+            <opcion valor="d">RWX.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 16 KB, amb bit de validesa i bit
+            de presència i registres PTBR i PTLR, quants frames hi ha?
+        </texto>
+        <opciones>
+            <opcion valor="a">16.384</opcion>
+            <opcion valor="b">65.536</opcion>
+            <opcion valor="c">262.144</opcion>
+            <opcion valor="d">1.048.576</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 16 KB, amb bit de validesa i bit
+            de presència i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^14*(14) bits.</opcion>
+            <opcion valor="b">2^15*(15) bits.</opcion>
+            <opcion valor="c">2^16*(16) bits.</opcion>
+            <opcion valor="d">2^17*(17) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 16 KB, amb bit de validesa i bit
+            de presència i registres PTBR i PTLR, si un procés te la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ física correspon a la @ lògica 25.000?
+        </texto>
+        <imagen>imatges/taula_pagines_7.png</imagen>
+        <opciones>
+            <opcion valor="a">8.616</opcion>
+            <opcion valor="b">1.647.016</opcion>
+            <opcion valor="c">3.285.416</opcion>
+            <opcion valor="d">"Page Fault"</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 30 bits d'adreça lògica, 28 bits d'adreça física, una mida de pàgina de 16 KB, amb bit de validesa i bit
+            de presència i registres PTBR i PTLR, si un procés te la taula de pàgines de l'imatge (tot en base 10), 
+            quina @ lògica correspon a la @ física 6.554.448?
+        </texto>
+        <imagen>imatges/taula_pagines_7.png</imagen>
+        <opciones>
+            <opcion valor="a">17.232</opcion>
+            <opcion valor="b">33.616</opcion>
+            <opcion valor="c">50.000</opcion>
+            <opcion valor="d">No pertany al procés.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">30 i 24 bits.</opcion>
+            <opcion valor="b">28 i 24 bits.</opcion>
+            <opcion valor="c">30 i 6 bits.</opcion>
+            <opcion valor="d">28 i 6 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^6*(24+28) bits.</opcion>
+            <opcion valor="b">2^8*(4+30) bits.</opcion>
+            <opcion valor="c">2^22*(30) bits.</opcion>
+            <opcion valor="d">2^24*(28) bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, quina és la mida màxima d'un segment?
+        </texto>
+        <opciones>
+            <opcion valor="a">1 GByte.</opcion>
+            <opcion valor="b">256 MBytes.</opcion>
+            <opcion valor="c">16 MBytes.</opcion>
+            <opcion valor="d">64 Bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, si les quatre primeres entrades de la taula de segments d'un procés són les de l'imatge, 
+            quina @ física correspon a la @ lògica 50.342.496?
+        </texto>
+        <imagen>imatges/taula_segments_8.png</imagen>
+        <opciones>
+            <opcion valor="a">15.000</opcion>
+            <opcion valor="b">70.848</opcion>
+            <opcion valor="c">105.848</opcion>
+            <opcion valor="d">130.848</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, si les quatre primeres entrades de la taula de segments d'un procés són les de l'imatge, 
+            quina @ lògica correspon a la @ física 100.000?
+        </texto>
+        <imagen>imatges/taula_segments_8.png</imagen>
+        <opciones>
+            <opcion valor="a">120.000</opcion>
+            <opcion valor="b">50.336.648</opcion>
+            <opcion valor="c">67.108.864</opcion>
+            <opcion valor="d">67.113.864</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 1 GByte, un espai físic de 256 MBytes, una mida màxima de segments de 16 MBytes i amb
+            registres STBR i STLR, si les quatre primeres entrades de la taula de segments d'un procés són les de l'imatge, si fos l'únic procés al sistema
+            i el kernel ocupa els primers 50.000 bytes. Quina seria la mida del bloc més petit per fragmentació externa?
+        </texto>
+        <imagen>imatges/taula_segments_8.png</imagen>
+        <opciones>
+            <opcion valor="a">4.000 bytes.</opcion>
+            <opcion valor="b">5.000 bytes.</opcion>
+            <opcion valor="c">10.000 bytes.</opcion>
+            <opcion valor="d">12.000 bytes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2026 -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>Quina és la funció del sumador que utilitza l'adreça base d'un segment?</texto>
+        <opciones>
+            <opcion valor="a">Calcular l'adreça física de la dada que volem accedir.</opcion>
+            <opcion valor="b">Calcular l'adreça física de número de segment.</opcion>
+            <opcion valor="c">Calcular l'adreça física de la taula de segments.</opcion>
+            <opcion valor="d">Calcular l'adreça física de la taula de pàgines.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 2 -->
+    <pregunta>
+        <texto>Quina és la funció de la suma que utilitza el PTBR?</texto>
+        <opciones>
+            <opcion valor="a">Calcular l'adreça física de la dada que volem accedir.</opcion>
+            <opcion valor="b">Calcular l'adreça física de la memòria del Kernel.</opcion>
+            <opcion valor="c">Calcular el límit de la memòria d'una pàgina.</opcion>
+            <opcion valor="d">Calcular l'adreça física a la informació de traducció del procés.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>La reubicació dinàmica:</texto>
+        <opciones>
+            <opcion valor="a">La fan les llibreries dinàmiques.</opcion>
+            <opcion valor="b">Es fa en el moment d'execució d'instruccions d'accés a memòria.</opcion>
+            <opcion valor="c">Es fa servir per tenir memòria compartida.</opcion>
+            <opcion valor="d">Totes son correctes.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>Per a què fa servir el swapper el dirty-bit?</texto>
+        <opciones>
+            <opcion valor="a">Per marcar zones de disc errònies.</opcion>
+            <opcion valor="b">Per marcar zones de memòria principal errònies.</opcion>
+            <opcion valor="c">Per a fer una única transferència a disc.</opcion>
+            <opcion valor="d">Per saber si hem fet MISS al TLB.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>Què millora la paginació respecte la segmentació?</texto>
+        <opciones>
+            <opcion valor="a">La gestió de la memòria lliure.</opcion>
+            <opcion valor="b">Poder tenir un TLB.</opcion>
+            <opcion valor="c">Elimina la fragmentació interna.</opcion>
+            <opcion valor="d">Totes son correctes.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>Què milloren els bits RWX en una taula de segments?</texto>
+        <opciones>
+            <opcion valor="a">La utilització de la memòria principal.</opcion>
+            <opcion valor="b">La utilització del disc.</opcion>
+            <opcion valor="c">La utilització de memòria virtual.</opcion>
+            <opcion valor="d">Aquesta taula no pot tenir aquests bits.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 2 GBytes, un espai físic de 512 MBytes, una mida màxima de segments de 8 MBytes i amb
+            registres STBR i STLR, quants bits tenen els registres STBR i STLR?
+        </texto>
+        <opciones>
+            <opcion valor="a">31 i 23 bits.</opcion>
+            <opcion valor="b">29 i 23 bits.</opcion>
+            <opcion valor="c">31 i 8 bits.</opcion>
+            <opcion valor="d">29 i 8 bits.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 2 GBytes, un espai físic de 512 MBytes, una mida màxima de segments de 8 MBytes i amb
+            registres STBR i STLR, quina és la mida màxima de la taula de segments d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^8*(23+31) bits</opcion>
+            <opcion valor="b">2^8*(23+29) bits</opcion>
+            <opcion valor="c">2^8*(31) bits</opcion>
+            <opcion valor="d">2^23*(29) bits</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 2 GBytes, un espai físic de 512 MBytes, una mida màxima de segments de 8 MBytes i amb
+            registres STBR i STLR, quants segments pot tenir com a màxim un procés?
+        </texto>
+        <opciones>
+            <opcion valor="a">8 milions.</opcion>
+            <opcion valor="b">512.</opcion>
+            <opcion valor="c">256.</opcion>
+            <opcion valor="d">64.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 2 GBytes, un espai físic de 512 MBytes, una mida màxima de segments de 8 MBytes i amb
+            registres STBR i STLR, si les quatre primeres entrades de la taula de segments son les de l'imatge, quina @ física correspon a la @ lògica 16.780.216?
+        </texto>
+        <imagen>imatges/taula_segments_9.png</imagen>
+        <opciones>
+            <opcion valor="a">8.000</opcion>
+            <opcion valor="b">10.000</opcion>
+            <opcion valor="c">60.000</opcion>
+            <opcion valor="d">68.000</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria segmentat, amb un espai lògic de 2 GBytes, un espai físic de 512 MBytes, una mida màxima de segments de 8 MBytes i amb
+            registres STBR i STLR, si les quatre primeres entrades de la taula de segments son les de l'imatge, quina @ física correspon a la @ física 70.000?
+        </texto>
+        <imagen>imatges/taula_segments_9.png</imagen>
+        <opciones>
+            <opcion valor="a">115.000</opcion>
+            <opcion valor="b">25.170.824</opcion>
+            <opcion valor="c">16.777.216</opcion>
+            <opcion valor="d">16.782.216</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència, i registres PTBR i PTLR, quants frames hi ha?
+        </texto>
+        <opciones>
+            <opcion valor="a">8.192</opcion>
+            <opcion valor="b">65.536</opcion>
+            <opcion valor="c">262.144</opcion>
+            <opcion valor="d">1.048.576</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència, i registres PTBR i PTLR, quina és la mida màxima de la taula de pàgines d'un procés qualsevol?
+        </texto>
+        <opciones>
+            <opcion valor="a">2^16*(16) bits</opcion>
+            <opcion valor="b">2^17*(17) bits</opcion>
+            <opcion valor="c">2^18*(18) bits</opcion>
+            <opcion valor="d">2^19*(19) bits</opcion>
+        </opciones>
+        <respuesta_correcta></respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència, i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), quina @ física correspon a la @ lògica 15.000?
+        </texto>
+        <imagen>imatges/taula_pagines_8.png</imagen>
+        <opciones>
+            <opcion valor="a">6.808</opcion>
+            <opcion valor="b">4.915.200</opcion>
+            <opcion valor="c">4.922.008</opcion>
+            <opcion valor="d">"Page Fault"</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>
+            Donat un model de memòria paginada, amb 31 bits d'adreça lògica, 29 bits d'adreça física, una mida de pàgina de 8 KB, amb bit de validesa i de
+            presència, i registres PTBR i PTLR, si un procés té la taula de pàgines de l'imatge (tot en base 10), quina @ lògica correspon a la @ física 
+            5.735.400?
+        </texto>
+        <imagen>imatges/taula_pagines_8.png</imagen>
+        <opciones>
+            <opcion valor="a">9.192</opcion>
+            <opcion valor="b">16.384</opcion>
+            <opcion valor="c">17.384</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>
+            Donada una petició d'un segment en un sistema que té els següents blocs lliures: 50, 310, 420, 220, 510, 130, 640. Quin algorisme s'ha aplicat si per
+            una petició de 200 s'ha escollit el 220?
+        </texto>
+        <opciones>
+            <opcion valor="a">Best fit.</opcion>
+            <opcion valor="b">Worst fit.</opcion>
+            <opcion valor="c">First fit.</opcion>
+            <opcion valor="d">Commit fit.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>Si un sistema té una tasa de falles de pàgina del 0.0000001%, què ens indica?</texto>
+        <opciones>
+            <opcion valor="a">Que està en trashing.</opcion>
+            <opcion valor="b">Que donarà un temps mig d'accés a memòria de l'ordre de nanosegons.</opcion>
+            <opcion valor="c">Que donarà un temps mig d'accés a memòria de l'ordre dels milisegons.</opcion>
+            <opcion valor="d">No és possible.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>
+            Donat l'algorisme del rellotge o segona oportunitat, i un sistema amb 16 frames amb els següents bits de referència: 1,0,0,0, 1,0,0,0, 1,0,1,0,
+            0,0,0,1 (es comença a comptar a partir del frame 0). Si el darrer reemplaçament va ser del frame 6, quin frame escollirà ara?
+        </texto>
+        <opciones>
+            <opcion valor="a">7</opcion>
+            <opcion valor="b">8</opcion>
+            <opcion valor="c">9</opcion>
+            <opcion valor="d">10</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+</preguntas>

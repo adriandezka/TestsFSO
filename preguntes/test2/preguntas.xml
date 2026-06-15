@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+    <!-- RECULL TESTS DE TEORIA -->
+    <!-- PREGUNTES DE 2007 -->
+    <!-- 17 -->
+    <pregunta>
+        <texto>Les seccions crítiques:</texto>
+        <opciones>
+            <opcion valor="a">Permeten l'accés concurrent a dispositius no compartibles.</opcion>
+            <opcion valor="b">Deixen passar a tots els lectors.</opcion>
+            <opcion valor="c">No garanteixen l'espera equilibrada.</opcion>
+            <opcion valor="d">Permeten l'accés simultani a dispositius no compartibles.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 18 -->
+    <pregunta>
+        <texto>La inhibició de les interrupcions permet:</texto>
+        <opciones>
+            <opcion valor="a">Sincronitzar processos.</opcion>
+            <opcion valor="b">La pot usar qualsevol procés de sistema i d'usuari.</opcion>
+            <opcion valor="c">Executar instruccions d'accés a qualsevol dispositiu compartible sense cap mena de restricció.</opcion>
+            <opcion valor="d">Executar instruccions de manera atòmica.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 20 -->
+    <pregunta>
+        <texto>Els semàfors entre ells comparteixen:</texto>
+        <opciones>
+            <opcion valor="a">Els identificadors de semàfor.</opcion>
+            <opcion valor="b">La variable de control del semàfor.</opcion>
+            <opcion valor="c">Les ganes de sincronitzar processos.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 21 -->
+    <pregunta>
+        <texto>Els semàfors serveixen:</texto>
+        <opciones>
+            <opcion valor="a">Per a tenir control del nombre de processos que poden passar/accedir a un codi.</opcion>
+            <opcion valor="b">Per a comunicar informació.</opcion>
+            <opcion valor="c">Només per crear seccions crítiques.</opcion>
+            <opcion valor="d">Per a res.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 22 -->
+    <pregunta>
+        <texto>Donat un semàfor S1 inicialitzat a 0 i un semàfor S2 inicialitzat a 1 i amb el següent codi, al executar-se aquests dos processos:</texto>
+        <imagen>imatges/semafors1.png</imagen>
+        <opciones>
+            <opcion valor="a">No acaben mai.</opcion>
+            <opcion valor="b">La variable de control del semàfor S2 val 2.</opcion>
+            <opcion valor="c">La variable de control del semàfor S1 es negativa o val 0.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 24 -->
+    <pregunta>
+        <texto>Adreçament indirecte en una comunicació per pas de missatges implica:</texto>
+        <opciones>
+            <opcion valor="a">Fer ús de memòria compartida.</opcion>
+            <opcion valor="b">Fer ús de semàfors.</opcion>
+            <opcion valor="c">Fer ús de bústies (o mailboxes).</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 25 -->
+    <pregunta>
+        <texto>La implementació del problema dels lectors/escriptors, donant prioritat als lectors. Quants semàfors necessita?</texto>
+        <opciones>
+            <opcion valor="a">0</opcion>
+            <opcion valor="b">1</opcion>
+            <opcion valor="c">2</opcion>
+            <opcion valor="d">3</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 26 -->
+    <pregunta>
+        <texto>Si apliquéssim mecanismes de prevenció de deadlock intentaríem:</texto>
+        <opciones>
+            <opcion valor="a">Eliminar la espera circular d'una retenció i espera.</opcion>
+            <opcion valor="b">Aplicar l'algoritme del banquer.</opcion>
+            <opcion valor="c">Aplicant tècniques de detecció.</opcion>
+            <opcion valor="d">Eliminar l'accés en exclusió mútua.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+    <!-- 27 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan bloquejats?</texto>
+        <imagen>imatges/processos1.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P1 i P3.</opcion>
+            <opcion valor="c">P1, P2 i P3.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- 28 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan en la condició de retenció i espera?</texto>
+        <imagen>imatges/processos1.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P1 i P3.</opcion>
+            <opcion valor="c">P1, P2 i P3.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 29 -->
+    <pregunta>
+        <texto>Donades les següents peticions i assignacions de recursos:</texto>
+        <imagen>imatges/peticions1.png</imagen>
+        <opciones>
+            <opcion valor="a">Hi ha deadlock.</opcion>
+            <opcion valor="b">No hi ha deadlock.</opcion>
+            <opcion valor="c">P1 i P2 estan en deadlock.</opcion>
+            <opcion valor="d">Encara que P3 té disponible un R1 i un R2, està bloquejat.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2006 -->
+    <!-- 16 -->
+    <pregunta>
+        <texto>El paradigma de productors/consumidors indica:</texto>
+        <opciones>
+            <opcion valor="a">Què la societat industrial es substenta pel consum de productes innecessàris.</opcion>
+            <opcion valor="b">El comportament de processos tenint en compte al fluxe de dades entre ells.</opcion>
+            <opcion valor="c">La incapacitat de sincronitzar correctament un conjunt de processos.</opcion>
+            <opcion valor="d">La pot usar qualsevol procés de sistema i d'usuari.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- 19 -->
+    <pregunta>
+        <texto>L'ús de semàfors per part de les aplicacions:</texto>
+        <opciones>
+            <opcion valor="a">Permeten sincronitzar aplicacions</opcion>
+            <opcion valor="b">Permeten crear una secció crítica.</opcion>
+            <opcion valor="c">Permeten fer zones d'exclusió mútua.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 20 -->
+    <pregunta>
+        <texto>Donat un semàfor S1 inicialitzat a 1 i un semàfor S2 inicialitzat a 0, i el següent codi, a l'executar-se aquests dos processos:</texto>
+        <imagen>imatges/semafors2.png</imagen>
+        <opciones>
+            <opcion valor="a">Mai passa que els dos acabin.</opcion>
+            <opcion valor="b">El P1 acaba i el P2 no.</opcion>
+            <opcion valor="c">El P1 no acaba i el P2 si.</opcion>
+            <opcion valor="d">Es poden produir tots els casos anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- 23 -->
+    <pregunta>
+        <texto>Donades les següents peticions i assignacions de recursos, quina afirmació és certa?</texto>
+        <imagen>imatges/peticions2.png</imagen>
+        <opciones>
+            <opcion valor="a">No hi ha deadlock.</opcion>
+            <opcion valor="b">P1, P3 estan bloquejats.</opcion>
+            <opcion valor="c">P1, P2 estan bloquejats.</opcion>
+            <opcion valor="d">P2, P3 estan bloquejats.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2005 -->
+	<!-- 19 -->
+    <pregunta>
+        <texto>La instrucció de llenguatge màquina Test&amp;Set:</texto>
+        <opciones>
+            <opcion valor="a">Necessita de memòria compartida per a ser executada.</opcion>
+            <opcion valor="b">Sense memòria compartida permet sincronitzar varis processos.</opcion>
+            <opcion valor="c">Permet sincronitzar processos que tinguin dades compartides.</opcion>
+            <opcion valor="d">És idèntica a la instrucció swap (o intercanvi).</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 22 -->
+    <pregunta>
+        <texto>Donat un semàfor S1 inicialitzat a 0 i un semàfor S2 inicialitzat a 1, i el següent codi, al executar-se aquests dos processos:</texto>
+        <imagen>imatges/semafors3.png</imagen>
+        <opciones>
+            <opcion valor="a">No acaben mai.</opcion>
+            <opcion valor="b">La variable de control del semàfor S2 val 2.</opcion>
+            <opcion valor="c">La variable de control del semàfor S1 es negativa o val 0.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 23 -->
+    <pregunta>
+        <texto>El pas de missatges:</texto>
+        <opciones>
+            <opcion valor="a">Pot bloquejar al emissor i al receptor.</opcion>
+            <opcion valor="b">Pot bloquejar al emissor però mai al receptor.</opcion>
+            <opcion valor="c">Pot bloquejar al receptor però mai al emissor.</opcion>
+            <opcion valor="d">Sempre bloqueja a qualsevol procés.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 27 -->
+    <pregunta>
+        <texto>En el següent graf, quins processos estan bloquejats?</texto>
+        <imagen>imatges/processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P1 i P3.</opcion>
+            <opcion valor="c">P1, P2 i P3.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 28 -->
+    <pregunta>
+        <texto>En el següent graf, quins processos estan en la condició de retenció i espera?</texto>
+        <imagen>imatges/processos2.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P1 i P3.</opcion>
+            <opcion valor="c">P1, P2 i P3.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 29 -->
+    <pregunta>
+        <texto>Donades les següents peticions i assignacions de recursos, quina afirmació és certa?</texto>
+        <imagen>imatges/peticions3.png</imagen>
+        <opciones>
+            <opcion valor="a">Hi ha deadlock entre els tres processos.</opcion>
+            <opcion valor="b">No hi ha deadlock.</opcion>
+            <opcion valor="c">P1 i P2 estan en deadlock.</opcion>
+            <opcion valor="d">Encara que P3 té disponible un R1 i un R2, està bloquejat.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2025 -->
+	<!-- 1 -->
+    <pregunta>
+        <texto>Per què és necessari la sincronització?</texto>
+        <opciones>
+            <opcion valor="a">Per que hi ha compartició de recursos entre processos.</opcion>
+            <opcion valor="b">Per que hi ha compartició de recursos entre processadors.</opcion>
+            <opcion valor="c">Por que hi ha compartició de recursos entre threads d'una mateixa aplicació.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 2 -->
+    <pregunta>
+        <texto>Les condicions necessàries per tenir un deadlock són:</texto>
+        <opciones>
+            <opcion valor="a">Exclusió mútua.</opcion>
+            <opcion valor="b">Retenció i espera.</opcion>
+            <opcion valor="c">Espera circular.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>Quina de les següents afirmacions sobre la interacció de processos és falsa?</texto>
+        <opciones>
+            <opcion valor="a">Els threads d'un mateix procés no poden competir pels mateixos recursos.</opcion>
+            <opcion valor="b">Els threads de diferents processos poden cooperar en l'ús d'un mateix recurs.</opcion>
+            <opcion valor="c">Els processos de diferents usuaris poden cooperar en l'ús d'un mateix recurs.</opcion>
+            <opcion valor="d">Els processos de diferents usuaris que s'executen concurrentment poden competir pels mateixos recursos.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 4 -->
+    <pregunta>
+        <texto>La memòria compartida entre threads:</texto>
+        <opciones>
+            <opcion valor="a">Fa que haguem d'implementar una secció crítica per llegir qualsevol dada.</opcion>
+            <opcion valor="b">Obliga a llegir totes les dades amb exclusió mútua.</opcion>
+            <opcion valor="c">Pot produir incoherència quan modifiquem les dades.</opcion>
+            <opcion valor="d">Els threads no poden compartir memòria.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 5 -->
+    <pregunta>
+        <texto>El test&amp;set:</texto>
+        <opciones>
+            <opcion valor="a">És una instrucció privilegiada que només pot fer servir el SO.</opcion>
+            <opcion valor="b">És una instrucció que s'executa de manera atòmica.</opcion>
+            <opcion valor="c">Fa un intercanvi de dues dades de memòria.</opcion>
+            <opcion valor="d">Fa un intercanvi de dues dades entre memòria i un registre.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>El paradigma de productor/consumidor:</texto>
+        <opciones>
+            <opcion valor="a">Es produeix entre un pagés i la cambra de comerç.</opcion>
+            <opcion valor="b">Es pot solucionar fent servir només semàfors.</opcion>
+            <opcion valor="c">Es pot solucionar fent servir només missatges.</opcion>
+            <opcion valor="d">No té una solució òptima.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>L'adreçament directe es produeix:</texto>
+        <opciones>
+            <opcion valor="a">Fent servir semàfors.</opcion>
+            <opcion valor="b">Fent servir memòria compartida.</opcion>
+            <opcion valor="c">Fent servir pas de missatges entre dos processos.</opcion>
+            <opcion valor="d">Fent servir bústies.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>El paradigma de Lectors/Escriptors:</texto>
+        <opciones>
+            <opcion valor="a">Fa exclusió mútua entre qualsevol parell de processos.</opcion>
+            <opcion valor="b">Crea una secció crítica.</opcion>
+            <opcion valor="c">Només pot haver un procés escriptor intentant accedir a la secció crítica.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>Què vol dir una sincronització rendez-vous o handshaking?</texto>
+        <opciones>
+            <opcion valor="a">Que dos semàfors bloquegen dos processos.</opcion>
+            <opcion valor="b">Que hi ha situació que impedeix el desbloqueig d'un conjunt de processos.</opcion>
+            <opcion valor="c">Que en pas de missatge bloquegem al emissor o al receptor fins que tots dos facin la comunicació.</opcion>
+            <opcion valor="d">Que fins que tots els processos que envien un missatge no arribin a ella cap d'ells continua.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>Donat un semàfor S1 inicialitzat a 1 i un semàfor S2 inicialitzat a 0, amb el següent codi, al executar-se aquests dos processos:</texto>
+        <imagen>imatges/semafors4.png</imagen>
+        <opciones>
+            <opcion valor="a">No acaben mai.</opcion>
+            <opcion valor="b">P1 acaba però P2 no.</opcion>
+            <opcion valor="c">P2 acaba però P1 no.</opcion>
+            <opcion valor="d">Tots dos acaben</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>Donat un semàfor S1 inicialitzat a 1 i un semàfor S2 inicialitzat a 0, amb el següent codi, les variables de control dels semàfors S1 i S2 valen al final:</texto>
+        <imagen>imatges/semafors4.png</imagen>
+        <opciones>
+            <opcion valor="a">0, 0</opcion>
+            <opcion valor="b">0, 1</opcion>
+            <opcion valor="c">1, 0</opcion>
+            <opcion valor="d">-2, 0</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>Donat el següent graf de retenció i espera de recursos, quins processos estan bloquejats?</texto>
+        <imagen>imatges/processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 i P2.</opcion>
+            <opcion valor="b">P2 i P4.</opcion>
+            <opcion valor="c">P3 i P4.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>Donat el següent graf de retenció i espera de recursos, quins processos estan en retenció i espera?</texto>
+        <imagen>imatges/processos3.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 i P2.</opcion>
+            <opcion valor="b">P3.</opcion>
+            <opcion valor="c">P2.</opcion>
+            <opcion valor="d">P1.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>Què fan les tècniques de prevenció?</texto>
+        <opciones>
+            <opcion valor="a">Es despreocupen totalment dels deadlocks.</opcion>
+            <opcion valor="b">Permeten que s'entri en deadlock per després arreglar-ho.</opcion>
+            <opcion valor="c">Eliminen la condició d'exclusió mútua d'una secció crítica.</opcion>
+            <opcion valor="d">Que obliguen a canviar la manera que els processos demanen els recursos.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>Si implementem el problema dels filòsofs-menjadors de la següent forma:</texto>
+        <imagen>imatges/codi1.png</imagen>
+        <opciones>
+            <opcion valor="a">Es pot produir deadlock.</opcion>
+            <opcion valor="b">Es pot produir innanició.</opcion>
+            <opcion valor="c">Es pot produir livelock.</opcion>
+            <opcion valor="d">Cap es correcta.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>L'algorisme del banquer:</texto>
+        <opciones>
+            <opcion valor="a">Només sincronitza dos processos.</opcion>
+            <opcion valor="b">Sincronitza múltiples processos.</opcion>
+            <opcion valor="c">No sincronitza res.</opcion>
+            <opcion valor="d">Es fa servir per evitar els deadlocks.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>Donat el següent codi que executen múltiples threads, quines condicions d'una secció crítica compleix?</texto>
+        <imagen>imatges/codi2.png</imagen>
+        <opciones>
+            <opcion valor="a">Cap.</opcion>
+            <opcion valor="b">Exclusió mútua.</opcion>
+            <opcion valor="c">Espera equilibrada.</opcion>
+            <opcion valor="d">Totes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>En la versió preliminar de l'algorisme de Peterson de dos processos P1 i P2:</texto>
+        <imagen>imatges/codi3.png</imagen>
+        <opciones>
+            <opcion valor="a">És un possible implementació de semàfors entre dos processos.</opcion>
+            <opcion valor="b">No compleix progressió.</opcion>
+            <opcion valor="c">La probabilitat d'accés al recurs compartit és del 50% per cada procés.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>Donades les següents peticions i assignacions de recursos d'un algorisme de detecció, quants recursos hi ha al sistema?</texto>
+        <imagen>imatges/peticions4.png</imagen>
+        <opciones>
+            <opcion valor="a">2, 2, 2.</opcion>
+            <opcion valor="b">3, 3, 3.</opcion>
+            <opcion valor="c">2, 2, 3.</opcion>
+            <opcion valor="d">3, 3, 2.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>Donades les següents peticions i assignacions de recursos d'un algorisme de detecció, quina afirmació és certa?</texto>
+        <imagen>imatges/peticions4.png</imagen>
+        <opciones>
+            <opcion valor="a">Hi ha deadlock entre els processos P1, P2 i P3.</opcion>
+            <opcion valor="b">No hi ha deadlock.</opcion>
+            <opcion valor="c">'Peticions' indica que P3 té 1 recurs de cadascun.</opcion>
+            <opcion valor="d">'Assignacions' indica que P1 ha alliberat un recurs de R2.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2022 -->
+	<!-- 2 -->
+    <pregunta>
+        <texto>Les condicions necessàries per crear una secció crítica són:</texto>
+        <opciones>
+            <opcion valor="a">Exclusió mútua.</opcion>
+            <opcion valor="b">Retenció i espera.</opcion>
+            <opcion valor="c">Espera circular.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>L'adreçament indirecte es produeix:</texto>
+        <opciones>
+            <opcion valor="a">Fent servir semàfors.</opcion>
+            <opcion valor="b">Fent servir memòria compartida.</opcion>
+            <opcion valor="c">Fent servir pas de missatges entre dos processos.</opcion>
+            <opcion valor="d">Fent servir bústies.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 8 -->
+    <pregunta>
+        <texto>Què vol dir una sincronització rendez-vous o handshaking?</texto>
+        <opciones>
+            <opcion valor="a">Que hi ha un obstacle que no poden superar mai els processos.</opcion>
+            <opcion valor="b">Que hi ha situació que impedeix el desbloqueig d'un conjunt de processos.</opcion>
+            <opcion valor="c">Que fins que tots els processos no hagin acomplert una condició en una variable cap es desbloquejarà.</opcion>
+            <opcion valor="d">Que fins que dos processos que intervenen en una sincronització no arribin a aquesta sincronització cap d'ells continua.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>Donat el següent codi amb el semàfor S1 inicialitzat a 0 i S2 inicialitzat a 0, al executar-se aquests dos processos:</texto>
+        <imagen>imatges/semafors5.png</imagen>
+        <opciones>
+            <opcion valor="a">Cap dels dos acaba.</opcion>
+            <opcion valor="b">P1 sempre acaba però P2 potser no.</opcion>
+            <opcion valor="c">P2 sempre acaba però P1 potser no.</opcion>
+            <opcion valor="d">Tots dos acaben</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>Donat el següent codi amb el semàfor S1 inicialitzat a 0 i S2 inicialitzat a 0, les variables de control dels semàfors S1 i S2 al final:</texto>
+        <imagen>imatges/semafors5.png</imagen>
+        <opciones>
+            <opcion valor="a">Poden valer 0, 0 i en un altre cas poden valer 0, 1.</opcion>
+            <opcion valor="b">Poden valer 0, 1 i en un altre cas poden valer 0, 2.</opcion>
+            <opcion valor="c">Poden valer 0, 0 i en un altre cas poden valer 1, 0.</opcion>
+            <opcion valor="d">Poden valer 0, 1 i en un altre cas poden valer 1, 0.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>Donat el següent codi que executen múltiples threads, quines condicions de secció crítica compleix?</texto>
+        <imagen>imatges/codi4.png</imagen>
+        <opciones>
+            <opcion valor="a">Cap.</opcion>
+            <opcion valor="b">Exclusió mútua.</opcion>
+            <opcion valor="c">Espera equilibrada.</opcion>
+            <opcion valor="d">Totes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan bloquejats?</texto>
+        <imagen>imatges/processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">P1, P2 i P3.</opcion>
+            <opcion valor="b">P1, P2 i P4.</opcion>
+            <opcion valor="c">P1, P3 i P4.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>Donat el següent codi de creació de dos threads, quin valor retornen cadascun dels dos threads?</texto>
+        <imagen>imatges/codi5.png</imagen>
+        <opciones>
+            <opcion valor="a">1 i 2.</opcion>
+            <opcion valor="b">11 i 12.</opcion>
+            <opcion valor="c">El valor que tingui 'cth1' i 'cth2'.</opcion>
+            <opcion valor="d">El valor que tingui 'i1' i 'i2'.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan en retenció i espera?</texto>
+        <imagen>imatges/processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 i P2.</opcion>
+            <opcion valor="b">P1 i P3.</opcion>
+            <opcion valor="c">P1 i P4.</opcion>
+            <opcion valor="d">P2 i P3.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>Donat el següent graf, si a tots els processos els hi queda el mateix temps d'execució, quins processos acaben primer i últim, respectivament?</texto>
+        <imagen>imatges/processos4.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 i P3.</opcion>
+            <opcion valor="b">P3 i P2.</opcion>
+            <opcion valor="c">P4 i P1.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>Donades les peticions i assignacions de recursos d'un algorisme de detecció, quants recursos en total hi ha al sistema?</texto>
+        <imagen>imatges/peticions5.png</imagen>
+        <opciones>
+            <opcion valor="a">2, 2, 2.</opcion>
+            <opcion valor="b">3, 3, 3.</opcion>
+            <opcion valor="c">2, 3, 3.</opcion>
+            <opcion valor="d">3, 3, 2.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>Donades les peticions i assignacions de recursos d'un algorisme de detecció, quina afirmació és certa?</texto>
+        <imagen>imatges/peticions5.png</imagen>
+        <opciones>
+            <opcion valor="a">Hi ha deadlock entre els tres processos.</opcion>
+            <opcion valor="b">No hi ha deadlock.</opcion>
+            <opcion valor="c">P1 i P2 estan en deadlock.</opcion>
+            <opcion valor="d">'Assignacions' indica que P3 ha alliberat un R1 i R2.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>Si implementem el problema dels filòsofs-menjadors amb el següent codi:</texto>
+        <imagen>imatges/codi6.png</imagen>
+        <opciones>
+            <opcion valor="a">Es pot produir innanició.</opcion>
+            <opcion valor="b">Es pot produir deadlock.</opcion>
+            <opcion valor="c">Es pot produir livelock.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>Quins dels següents entorns implementa la crida pthread_create(...)?</texto>
+        <opciones>
+            <opcion valor="a">POSIX Threads.</opcion>
+            <opcion valor="b">WINDOWS Threads.</opcion>
+            <opcion valor="c">Java Threads.</opcion>
+            <opcion valor="d">OpenMP.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>Quins mecanismes proporcionen els IPCs de POSIX?</texto>
+        <opciones>
+            <opcion valor="a">Memòria compartida.</opcion>
+            <opcion valor="b">Semàfors.</opcion>
+            <opcion valor="c">Pas de missatges.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+    <!-- PREGUNTES DE 2023 -->
+    <!-- 1 -->
+    <pregunta>
+        <texto>Quins mecanismes implementen els IPCs:</texto>
+        <opciones>
+            <opcion valor="a">Memòria compartida.</opcion>
+            <opcion valor="b">Semàfors.</opcion>
+            <opcion valor="c">Pas de missatges.</opcion>
+            <opcion valor="d">Totes les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 3 -->
+    <pregunta>
+        <texto>La crida 'send(...)':</texto>
+        <opciones>
+            <opcion valor="a">És una funció privilegiada que només pot fer servir el SO.</opcion>
+            <opcion valor="b">És una funció que s'executa de manera atòmica.</opcion>
+            <opcion valor="c">És una funció per eviar missatges que sempre bloqueja.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 6 -->
+    <pregunta>
+        <texto>El paradigma de Lectors/Escriptors:</texto>
+        <opciones>
+            <opcion valor="a">Fa exclusió mútua entre qualsevol parell de processos.</opcion>
+            <opcion valor="b">Crea una secció crítica.</opcion>
+            <opcion valor="c">Permet accedir simultàniament sense exclusió mútua a múltiples lectors.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 7 -->
+    <pregunta>
+        <texto>Que signifiquen les sigles IPC en l'àmbit de l'assignatura de FSO?</texto>
+        <opciones>
+            <opcion valor="a">Intercommunications per Core.</opcion>
+            <opcion valor="b">Interprocess Communication.</opcion>
+            <opcion valor="c">Instructions Per Cycle.</opcion>
+            <opcion valor="d">Index del Preu al Consum.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 9 -->
+    <pregunta>
+        <texto>Donat el següent codi amb el semàfor S1 inicialitzat a 0 i S2 inicialitzat a 0, al executar-se aquests tres processos:</texto>
+        <imagen>imatges/semafors6.png</imagen>
+        <opciones>
+            <opcion valor="a">Cap procés acaba.</opcion>
+            <opcion valor="b">P1 i P2 sempre acaben però P3 potser no.</opcion>
+            <opcion valor="c">Només acaba P3.</opcion>
+            <opcion valor="d">Tots acaben.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 10 -->
+    <pregunta>
+        <texto>Donat el següent codi amb el semàfor S1 inicialitzat a 0 i S2 inicialitzat a 0, les variables de control dels semàfors S1 i S2 al final valen:</texto>
+        <imagen>imatges/semafors6.png</imagen>
+        <opciones>
+            <opcion valor="a">0, 0.</opcion>
+            <opcion valor="b">0, 1.</opcion>
+            <opcion valor="c">1, 0.</opcion>
+            <opcion valor="d">1, 1.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 11 -->
+    <pregunta>
+        <texto>Donat el següent codi que executen múltiples threads, quines condicions de secció crítica compleix?</texto>
+        <imagen>imatges/codi7.png</imagen>
+        <opciones>
+            <opcion valor="a">Cap.</opcion>
+            <opcion valor="b">Exclusió mútua.</opcion>
+            <opcion valor="c">Espera equilibrada.</opcion>
+            <opcion valor="d">Totes.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 12 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan bloquejats?</texto>
+        <imagen>imatges/processos5.png</imagen>
+        <opciones>
+            <opcion valor="a">P1 i P2.</opcion>
+            <opcion valor="b">P3 i P4.</opcion>
+            <opcion valor="c">P1, P3 i P4.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 13 -->
+    <pregunta>
+        <texto>Donat el següent graf, quins processos estan en retenció i espera?</texto>
+        <imagen>imatges/processos5.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P3.</opcion>
+            <opcion valor="c">P1 i P3.</opcion>
+            <opcion valor="d">P2 i P4.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 14 -->
+    <pregunta>
+        <texto>Donat el següent graf, quin procés acaba últim?</texto>
+        <imagen>imatges/processos5.png</imagen>
+        <opciones>
+            <opcion valor="a">P1.</opcion>
+            <opcion valor="b">P3.</opcion>
+            <opcion valor="c">P4.</opcion>
+            <opcion valor="d">Cap.</opcion>
+        </opciones>
+        <respuesta_correcta>c</respuesta_correcta>
+    </pregunta>
+
+	<!-- 15 -->
+    <pregunta>
+        <texto>Donat el següent codi de creació de dos threads, quin valor retornen cadascun dels dos threads?</texto>
+        <imagen>imatges/codi8.png</imagen>
+        <opciones>
+            <opcion valor="a">1 i 2.</opcion>
+            <opcion valor="b">2 i 1.</opcion>
+            <opcion valor="c">El valor que tingui 'cth1' i 'cth2'.</opcion>
+            <opcion valor="d">El valor que tingui 'i1' i 'i2'.    </opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 16 -->
+    <pregunta>
+        <texto>En la versió preliminar de l'algorisme de Peterson de dos processos P1 i P2:</texto>
+        <imagen>imatges/codi9.png</imagen>
+        <opciones>
+            <opcion valor="a">No compleix exclusió mútua.</opcion>
+            <opcion valor="b">No compleix progressió.</opcion>
+            <opcion valor="c">No compleix espera equilibrada.</opcion>
+            <opcion valor="d">Cap de les anteriors.</opcion>
+        </opciones>
+        <respuesta_correcta>b</respuesta_correcta>
+    </pregunta>
+
+	<!-- 17 -->
+    <pregunta>
+        <texto>Donades les peticions i assignacions de recursos d'un algorisme de detecció, quants recursos hi ha al sistema?</texto>
+        <imagen>imatges/peticions6.png</imagen>
+        <opciones>
+            <opcion valor="a">2, 2, 2.</opcion>
+            <opcion valor="b">3, 3, 3.</opcion>
+            <opcion valor="c">2, 2, 3.</opcion>
+            <opcion valor="d">3, 2, 2.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+	<!-- 18 -->
+    <pregunta>
+        <texto>Donades les peticions i assignacions de recursos d'un algorisme de detecció, quina afirmació és certa?</texto>
+        <imagen>imatges/peticions6.png</imagen>
+        <opciones>
+            <opcion valor="a">Hi ha deadlock entre els processos P1 i P2.</opcion>
+            <opcion valor="b">No hi ha deadlock.</opcion>
+            <opcion valor="c">'Peticions' indica que P4 té un recurs de cadascun.</opcion>
+            <opcion valor="d">'Assignacions' indica que P3 ha alliberat un R1 i un R2.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 19 -->
+    <pregunta>
+        <texto>Quina condició no poden eliminar els mecanismes de prevenció de deadlocks?</texto>
+        <opciones>
+            <opcion valor="a">Exclusió mútua.</opcion>
+            <opcion valor="b">Retenció i espera.</opcion>
+            <opcion valor="c">No apropiació.</opcion>
+            <opcion valor="d">Espera circular.</opcion>
+        </opciones>
+        <respuesta_correcta>a</respuesta_correcta>
+    </pregunta>
+
+	<!-- 20 -->
+    <pregunta>
+        <texto>Què solen fer la majoria de sistemes operatius respecte als deadlocks?</texto>
+        <opciones>
+            <opcion valor="a">Prevenció.</opcion>
+            <opcion valor="b">Evitació.</opcion>
+            <opcion valor="c">Detecció i eliminació.</opcion>
+            <opcion valor="d">Ignorar-los.</opcion>
+        </opciones>
+        <respuesta_correcta>d</respuesta_correcta>
+    </pregunta>
+
+</preguntas>
